@@ -7,14 +7,6 @@ Getting started on software for research
 :Contact: oliviero@cenbg.in2p3.fr
 
 
-.. contents::
-   :depth: 3
-..
-
-.. raw:: pdf
-
-PageBreak oneColumn
-
 About this repository
 =====================
 
@@ -37,7 +29,7 @@ How to use this repository?
 
 
 Recommended languages and softwares to learn for Master or internship students
-..............................................................................
+------------------------------------------------------------------------------
 
 * Git tutorial
 * Bash tutorial
@@ -52,7 +44,7 @@ Recommended languages and softwares to learn for Master or internship students
 * Slack tutorial
 
 Recommended languages and softwares to learn for PhD students
-.............................................................
+-------------------------------------------------------------
 
 * All recommendations for Master or internship students
 * Cmake tutorial
@@ -62,7 +54,7 @@ Recommended languages and softwares to learn for PhD students
 
 
 Recommended languages and softwares to learn for advanced people
-................................................................
+----------------------------------------------------------------
 
 * All recommendations for PhD students
 * Geant4 tutorial
