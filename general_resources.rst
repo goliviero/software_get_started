@@ -19,6 +19,8 @@ RST/Sphinx/Markdown
 ===================
 https://sphinx-tutorial.readthedocs.io/step-1/
 https://sphinx-tutorial.readthedocs.io/cheatsheet/
+https://www.odoo.com/documentation/16.0/fr/contributing/documentation/rst_cheat_sheet.html
+https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
 
 Git + cmake tuto FR
 ===================
