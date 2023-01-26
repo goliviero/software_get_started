@@ -1,0 +1,161 @@
+%% Copyright (C) 2023 Guillaume Oliviéro
+%%
+%% This file may be distributed and/or modified under the conditions
+%% of the LaTeX Project Public License, either version 1.3c of this
+%% license or (at your option) any later version. The latest version
+%% of this license is in:
+%%
+%%    http://www.latex-project.org/lppl.txt
+%%
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2006/05/20 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainer of this work is Guillaume Oliviéro
+%% mailto : oliviero@cenbg.in2p3.fr
+%%
+%% This is main.tex for French PhD Thesis.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Master file 				%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 11pt, twoside, openright, notitlepage]{report}
+\input{Preambule}     	% List of packages and their options
+\input{CommandesPerso}	% Commands and perso environment
+%\input{PageDeGarde}
+
+\bibliographystyle{unsrt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   			Liste des fichiers à compiler					%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\includeonly{Chapitre1,Chapitre2,Annexes}
+
+% Infos de la page de garde
+%% \author{Prénom \scshape{Nom}}
+%% \title{Le titre de votre thèse de doctorat}
+%% \specialite{Constituants élémentaires et physique théorique}
+%% \directeur{Prénom directeur thèse \scshape{Nom directeur thèse}}
+%% \encadrant{Prénom encadrant \scshape{Nom encadrant}}
+%% \date{XX XXXX 20YY}
+%% \jurya{M. X}{Professeur}{Examinateur}
+%% \juryb{M. Y}{Professeur}{Rapporteur}
+%% \juryc{M. Z}{Professeur}{Examinateur}
+%% \juryd{M. A}{Professeur}{Examinateur}
+%% \ecole{Université de }
+
+% Méta-données du PDF
+\hypersetup{
+  pdfauthor={XXX},
+  pdfsubject={Manuscrit de thèse de doctorat},
+  pdftitle={XXX},
+  pdfkeywords={Experiment, XXXX}
+}
+
+
+%% Pour inclure un ou plusieurs chapitres seulement : include only puis \include dans le document.
+%\includeonly{Chapitre_1/chap_1, Chapitre_2/chap_2, Chapitre_3/chap_3}
+
+
+\input{Others/pagedegarde}
+
+\author{XXX}
+
+\title{YYY}
+
+\ED{École doctorale \no  XXX}
+
+\doctorat{Doctorat de XXX}
+
+\specialite{Physique}
+
+\directeur{XXX}
+
+\date{XXX}
+
+
+\jurya{M. A}{Professeur des universités, Labo 1, Université 1, Ville 1}{Rapporteur}
+\juryb{M. B}{Physicien, Labo 2, Université 2, Ville 2}{Rapporteur}
+\juryc{M. C}{Chargé de recherche, Labo 3, Université 3, Ville 3}{Examinateur}
+\juryd{M. D}{Maître de conférences, Labo 4, Université 4, Ville 4}{Examinateur}
+\jurye{Mme E}{Professeure des universités, Labo 5, Université 5, Ville 5}{Examinatrice}
+\juryf{M. F}{Professeur, Labo 6, Université 6, Ville 6}{Examinateur}
+\juryg{M. G}{Professeur des universités, Labo 7, Université 8, Ville 9}{Directeur de thèse}
+
+\adresse{\textbf{YYYY} -- UMR  \\
+ YYYY, France}
+
+
+\begin{document}
+% Préambule
+\pagenumbering{roman}
+
+%\thispagestyle{empty}
+%\setcounter{page}{0}
+% \hfill
+% \newpage
+
+\setcounter{page}{2}
+\pagedegarde
+
+
+% Table des matières
+\setcounter{tocdepth}{2}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
+\setcounter{secnumdepth}{3}
+\dominitoc						% Génération des mini-toc	\pagenumbering{arabic}
+
+%% \thispagestyle{empty}
+%% \setcounter{page}{0}
+%% \hfill
+%% \newpage
+
+
+\include{Others/remerciements}
+
+\tableofcontents
+
+% Liste des figures
+% \renewcommand*\listfigurename{Liste des figures}
+% \listoffigures
+% Liste des tableaux
+% \listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%        Contenu du document        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
+\pagenumbering{arabic}
+
+%% To remove at the end.
+%% Utile pour rédaction
+%% \listoftodos
+
+\include{Others/intro}
+\include{Chapitre_1/chap_1}
+\include{Chapitre_2/chap_2}
+\include{Chapitre_3/chap_3}
+\include{Chapitre_4/chap_4}
+\include{Chapitre_5/chap_5}
+\include{Chapitre_6/chap_6}
+\include{Others/conclusion}
+
+
+\begin{appendix}
+  \include{Others/annexes}
+\end{appendix}
+
+\bibliography{biblio}
+
+\cleardoublepage
+\cleartoleftpage
+
+\pagestyle{empty}
+
+
+\newgeometry{top=1.5cm, bottom=1.5cm, left=2.2cm, right=2.2cm}
+\include{Others/abstract}
+
+\end{document}

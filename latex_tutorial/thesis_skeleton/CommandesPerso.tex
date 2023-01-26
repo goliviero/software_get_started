@@ -1,0 +1,194 @@
+%%%%%%%%%%%%%%%%%%%
+% Commandes perso %
+%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\alp}{\texorpdfstring{\ensuremath{\upalpha}\xspace}{alpha }}
+\newcommand{\bet}{\texorpdfstring{\ensuremath{\upbeta}\xspace}{b\'{e}ta }}
+\newcommand{\alpbet}{\texorpdfstring{\ensuremath{\upalpha-\upbeta}\xspace}{alpha-b\'{e}ta}}
+\newcommand{\alpt}{\ensuremath{\alpha_2}\xspace}
+
+% Tenseur des déformation cylindrique
+\newcommand{\epsrr}{\ensuremath{\varepsilon_{rr}}\xspace}
+\newcommand{\epstt}{\ensuremath{\varepsilon_{\theta\theta}}\xspace}
+\newcommand{\epszz}{\ensuremath{\varepsilon_{zz}}\xspace}
+\newcommand{\epsrt}{\ensuremath{\varepsilon_{r\theta}}\xspace}
+\newcommand{\epstz}{\ensuremath{\varepsilon_{\theta z}}\xspace}
+\newcommand{\epszr}{\ensuremath{\varepsilon_{zr}}\xspace}
+
+\newcommand{\matlab}{\textsc{Matlab}\texttrademark\xspace}
+
+
+
+%% Figures centrées, et en position 'here, top, bottom or page'
+\newenvironment{figureth}{%
+  \begin{figure}[htbp]
+    \centering
+  }{
+  \end{figure}
+}
+
+
+%% Tableaux centrés, et en position 'here, top, bottom or page'
+\newenvironment{tableth}{%
+  \begin{table}[htbp]
+    \centering
+    % \rowcolors{1}{coleurtableau}{coleurtableau}
+  }{
+  \end{table}
+}
+
+%% Sous-figures centrées, en position 'top'
+\newenvironment{subfigureth}[1]{%
+  \begin{subfigure}[t]{#1}
+    \centering
+  }{
+  \end{subfigure}
+}
+
+\newcommand{\citationChap}[2]{%
+  \epigraph{\og \textit{#1} \fg{}}{#2}
+}
+
+%% On commence par une page impaire quand on change le style de numérotation de pages
+\let\oldpagenumbering\pagenumbering
+\renewcommand{\pagenumbering}[1]{%
+  \cleardoublepage
+  \oldpagenumbering{#1}
+}
+
+\providecommand{\keywords}[1]
+{
+  \textbf{\textit{Keywords---}} #1
+}
+
+\providecommand{\motcles}[1]
+{
+  \textbf{\textit{Mots clés---}} #1
+}
+
+\newcommand{\cleartoleftpage}{
+  \clearpage
+  \ifodd\value{page}\hbox{}\vspace*{\fill}\thispagestyle{empty}\newpage\fi
+}
+
+\renewcommand*{\arraystretch}{1.35}
+
+\newcommand{\mainpath}{.}
+\newcommand{\mainimgpath}{\mainpath/img}
+\newcommand{\mainpdfteximgpath}{\mainpath/pdftex}
+\newcommand{\mainpdftextimgpath}{\mainpath/pdftex_t}
+
+\newcommand{\chaponepath}{\mainpath/Chapitre_1}
+\newcommand{\chaponeimgpath}{\chaponepath/img}
+\newcommand{\chaponepdfteximgpath}{\chaponepath/pdftex}
+\newcommand{\chaponepdftextimgpath}{\chaponepath/pdftex_t}
+
+\newcommand{\chaptwopath}{\mainpath/Chapitre_2}
+\newcommand{\chaptwoimgpath}{\chaptwopath/img}
+\newcommand{\chaptwopdfteximgpath}{\chaptwopath/pdftex}
+\newcommand{\chaptwopdftextimgpath}{\chaptwopath/pdftex_t}
+
+\newcommand{\chapthreepath}{\mainpath/Chapitre_3}
+\newcommand{\chapthreeimgpath}{\chapthreepath/img}
+\newcommand{\chapthreepdfteximgpath}{\chapthreepath/pdftex}
+\newcommand{\chapthreepdftextimgpath}{\chapthreepath/pdftex_t}
+
+\newcommand{\chapfourpath}{\mainpath/Chapitre_4}
+\newcommand{\chapfourimgpath}{\chapfourpath/img}
+\newcommand{\chapfourpdfteximgpath}{\chapfourpath/pdftex}
+\newcommand{\chapfourpdftextimgpath}{\chapfourpath/pdftex_t}
+
+\newcommand{\chapfivepath}{\mainpath/Chapitre_5}
+\newcommand{\chapfiveimgpath}{\chapfivepath/img}
+\newcommand{\chapfivepdfteximgpath}{\chapfivepath/pdftex}
+\newcommand{\chapfivepdftextimgpath}{\chapfivepath/pdftex_t}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{IDMaroon}{rgb}{0.5,0.00,0.00}
+\definecolor{RegPurple}{rgb}{0.50,0.00,0.50}
+\definecolor{BitBlue}{rgb}{0.00,0.00,1.00}
+
+\newcommand{\defID}[1]{\texttt{\textcolor{IDMaroon}{\textbf{#1}}}}
+\newcommand{\defIDAlt}[1]{\texttt{\textcolor{IDMaroon}{\textbf{#1}}}}
+\newcommand{\defLabelID}[2]{\texttt{\textcolor{IDMaroon}{\textbf{#1=#2}}}}
+\newcommand{\defLabelIDAlt}[2]{\texttt{\textcolor{IDMaroon}{\textbf{#1=#2}}}}
+
+\newcommand{\defBitmask}[1]{\texttt{\textcolor{BitBlue}{\textbf{0x#1}}}}
+\newcommand{\defLabelBitmask}[2]{\texttt{\textcolor{BitBlue}{\textbf{#1=0x#2}}}}
+\newcommand{\defBitset}[1]{\texttt{\textcolor{BitBlue}{\textbf{0x#1}}}}
+\newcommand{\defLabelBitset}[2]{\texttt{\textcolor{BitBlue}{\textbf{#1=0x#2}}}}
+\newcommand{\defBitsetName}[1]{\texttt{\textcolor{BitBlue}{\textbf{#1}}}}
+
+\newcommand{\defReg}[1]{\texttt{\textcolor{RegPurple}{\textbf{#1}}}}
+\newcommand{\defLabelReg}[2]{\texttt{\textcolor{RegPurple}{\textbf{#1=0x#2}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\note}[1]{\todo[inline, color=red]{#1}}
+
+\newcommand{\TOCOMPLETE}{{\color{red}{[TO COMPLETE]}}}
+\newcommand{\REFNEEDED}{{\color{red}{[REF NEEDED]}}}
+\newcommand{\TODO}{{\color{red}{[TODO]}}}
+\newcommand{\BBZN}{$\beta\beta{}0\nu$}
+\newcommand{\BBZNM}{$\beta\beta{}0\nu\chi$}
+\newcommand{\BB}{$\beta\beta$}
+\newcommand{\BBDN}{$\beta\beta{}2\nu$}
+\newcommand{\db}{double b\^eta}
+\newcommand{\Ddbsn}{{Double désintégration b\^eta sans émission de neutrinos}}
+\newcommand{\ddbsn}{{double désintégration b\^eta sans émission de neutrinos}}
+\newcommand{\Ddbn}{{Double désintégration b\^eta avec émission de neutrinos}}
+\newcommand{\ddbn}{{double désintégration b\^eta avec émission de neutrinos}}
+\newcommand{\ddb}{{double désintégration b\^eta}}
+\newcommand{\SN}{SuperNEMO}
+
+\newcommand{\NA}{$^{22}$Na}
+\newcommand{\K}{$^{40}$K}
+\newcommand{\CA}{$^{48}$Ca}
+\newcommand{\CO}{$^{60}$Ca}
+\newcommand{\GE}{$^{76}$Ge}
+\newcommand{\KR}{$^{82}$Kr}
+\newcommand{\SE}{$^{82}$Se}
+\newcommand{\ZR}{$^{96}$Zr}
+\newcommand{\MO}{$^{100}$Mo}
+\newcommand{\TC}{$^{100}$Tc}
+\newcommand{\PD}{$^{110}$Pd}
+\newcommand{\CD}{$^{116}$Cd}
+\newcommand{\TEV}{$^{128}$Te}
+\newcommand{\TE}{$^{130}$Te}
+\newcommand{\XE}{$^{136}$Xe}
+\newcommand{\ND}{$^{150}$Nd}
+\newcommand{\RNZ}{$^{220}$Rn}
+\newcommand{\BI}{$^{207}$Bi}
+\newcommand{\TL}{$^{208}$Tl}
+\newcommand{\PBTL}{$^{208}$Pb}
+\newcommand{\BID}{$^{212}$Bi}
+\newcommand{\POD}{$^{212}$Po}
+\newcommand{\BIQ}{$^{214}$Bi}
+\newcommand{\POQ}{$^{214}$Po}
+\newcommand{\RND}{$^{222}$Rn}
+\newcommand{\THO}{$^{232}$Th}
+\newcommand{\UC}{$^{235}$U}
+\newcommand{\UH}{$^{238}$U}
+\newcommand{\SEN}{$^{nat}$Se}
+\newcommand{\QB}{Q$_{\beta}$}
+\newcommand{\QBB}{Q$_{\beta\beta}$}
+\newcommand{\Ms}{Modèle standard}
+\newcommand{\MS}{Modèle Standard}
+\newcommand{\ms}{modèle standard}
+\newcommand{\Mspp}{Modèle standard de la physique des particules}
+\newcommand{\MSpp}{Modèle Standard de la physique des particules}
+\newcommand{\MSPP}{Modèle Standard de la Physique des Particules}
+\newcommand{\mspp}{modèle standard de la physique des particules}
+
+\newcommand{\T}{$T_{1/2}$}
+\newcommand{\TZN}{$T^{0\nu}_{1/2}$}
+\newcommand{\TDN}{$T^{2\nu}_{1/2}$}
+\newcommand{\GZN}{$G_{0\nu}$}
+\newcommand{\GDN}{$G_{2\nu}$}
+\newcommand{\MZN}{$M_{0\nu}$}
+\newcommand{\MDN}{$M_{2\nu}$}
+\newcommand{\mnubb}{$|m_{\nu\beta\beta}|$}
+\newcommand{\mbb}{$m_{\beta\beta}$}
+\newcommand{\mubq}{$\mu$Bq.kg$^{-1}$}
+\newcommand{\mbqm}{mBq.m$^{-3}$}

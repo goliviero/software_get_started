@@ -1,0 +1,166 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page de garde              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\@ecole{école}
+\newcommand{\ecole}[1]
+{
+  \def\@ecole{#1}
+}
+
+\def\@specialite{Spécialité}
+\newcommand{\specialite}[1]
+{
+  \def\@specialite{#1}
+}
+
+\def\@ED{\'{E}cole Doctorale}
+\newcommand{\ED}[1]
+{
+  \def\@ED{#1}
+}
+
+\def\@doctorat{Doctorat}
+\newcommand{\doctorat}[1]
+{
+  \def\@doctorat{#1}
+}
+
+\def\@adresse{Adresse}
+\newcommand{\adresse}[1]
+{
+  \def\@adresse{#1}
+}
+
+\def\@directeur{directeur}
+\newcommand{\directeur}[1]
+{
+  \def\@directeur{#1}
+}
+
+\def\@encadrant{encadrant}
+\newcommand{\encadrant}[1]
+{
+  \def\@encadrant{#1}
+}
+\def\@jurya{}{}{}
+\newcommand{\jurya}[3]
+{
+  \def\@jurya{#1,	& #2	& #3\\}
+}
+\def\@juryb{}{}{}
+\newcommand{\juryb}[3]
+{
+  \def\@juryb{#1,	& #2	& #3\\}
+}
+\def\@juryc{}{}{}
+\newcommand{\juryc}[3]
+{
+  \def\@juryc{#1,	& #2	& #3\\}
+}
+\def\@juryd{}{}{}
+\newcommand{\juryd}[3]
+{
+  \def\@juryd{#1,	& #2	& #3\\}
+}
+\def\@jurye{}{}{}
+\newcommand{\jurye}[3]
+{
+  \def\@jurye{#1,	& #2	& #3\\}
+}
+\def\@juryf{}{}{}
+\newcommand{\juryf}[3]
+{
+  \def\@juryf{#1,	& #2	& #3\\}
+}
+\def\@juryg{}{}{}
+\newcommand{\juryg}[3]
+{
+  \def\@juryg{#1,	& #2	& #3\\}
+}
+\def\@juryh{}{}{}
+\newcommand{\juryh}[3]
+{
+  \def\@juryh{#1,	& #2	& #3\\}
+}
+\def\@juryi{}{}{}
+\newcommand{\juryi}[3]
+{
+  \def\@juryi{#1,	& #2	& #3\\}
+}
+\makeatother
+
+\newcommand\EtiquetteThese
+{
+  \put(0,0)
+  {
+    \parbox[t][\paperheight]{\paperwidth}
+    {
+      \hfill
+      \colorbox{blue}
+      {
+        \begin{minipage}[b]{3em}
+          \centering\Huge\textcolor{white}{T\\H\\E\\S\\E\\}
+          \vspace{0.3cm}
+        \end{minipage}
+      }
+    }
+  }
+}
+
+\makeatletter
+\newcommand{\pagedegarde}
+{
+  \newgeometry{top=2cm, bottom=2cm, left=1.5cm, right=1.5cm}
+  % \addtocounter{page}{2}
+
+  % \AddToShipoutPicture*{\BackgroundPic}
+  % \AddToShipoutPicture*{\EtiquetteThese}
+  %
+  \begin{titlepage}
+  \begin{center}
+
+    {\Large \@ED}\\
+    \vspace{0.8cm}
+
+    {\LARGE\bfseries \emph{THÈSE}}\\
+    \vspace{0.8cm}
+    \textit{présentée et soutenue publiquement par}\\
+    \vspace{0.5cm}
+    {\Large { \bfseries \@author}} \\
+    \vspace{0.5cm}
+    le \@date \\
+    \vspace{0.8cm}
+    {\bfseries en vue de l'obtention du diplôme de }\\
+    \vspace{0.8cm}
+    {\huge\bfseries \@doctorat}\\
+    \vspace{0.5cm}
+    {\Large{\bfseries Spécialité : ``\@specialite''}}\\
+    \vfill
+    {\LARGE \color[rgb]{0,0,1} \bfseries{\@title}} \\
+    \vfill
+    Directeur de thèse : {\bfseries \@directeur}\\
+    \vfill
+    %
+    {\footnotesize
+      \begin{tabular}{>{\bfseries}lll}
+        \large Jury :\\
+        \@jurya
+        \@juryb
+        \@juryc
+        \@juryd
+        \@jurye
+        \@juryf
+        \@juryg
+        \@juryh
+        \@juryi
+      \end{tabular}
+    }
+    \vfill
+    \hrulefill \\
+    \@adresse
+  \end{center}
+  \end{titlepage}
+  %
+  \restoregeometry
+}

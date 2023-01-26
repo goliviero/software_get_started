@@ -1,0 +1,51 @@
+mkdir -p bash_tutorial/resources
+mkdir -p cpp_tutorial/resources
+mkdir -p python_tutorial/resources
+mkdir -p geant4_tutorial/resources
+mkdir -p root_tutorial/resources
+mkdir -p bayeux_tutorial/resources
+mkdir -p cmake_tutorial/resources
+mkdir -p falaise_tutorial/resources
+mkdir -p git_tutorial/resources
+mkdir -p doxygen_tutorial/resources
+mkdir -p documentation_tutorial/resources
+mkdir -p latex_tutorial/resources
+mkdir -p docker_tutorial/resources
+mkdir -p boost_tutorial/resources
+mkdir -p python_jupyter_notebooks_tutorial/resources
+mkdir -p python_matplotlib_tutorial/resources
+mkdir -p supernemo_shifters_tutorial/resources
+mkdir -p slack_tutorial/resources
+
+touch bash_tutorial/README.rst
+touch cpp_tutorial/README.rst
+touch python_tutorial/README.rst
+touch geant4_tutorial/README.rst
+touch root_tutorial/README.rst
+touch bayeux_tutorial/README.rst
+touch cmake_tutorial/README.rst
+touch falaise_tutorial/README.rst
+touch git_tutorial/README.rst
+touch doxygen_tutorial/README.rst
+touch documentation_tutorial/README.rst
+touch documentation_tutorial/markdown_example.rst
+touch documentation_tutorial/restructured_text_example.rst
+touch latex_tutorial/README.rst
+touch docker_tutorial/README.rst
+touch python_jupyter_notebooks_tutorial/README.rst
+touch boost_tutorial/README.rst
+touch python_matplotlib_tutorial/README.rst
+touch supernemo_shifters_tutorial/README.rst
+touch slack_tutorial/README.rst
+
+
+
+
+rmdir git_tutorial/README.md
+rmdir doxygen_tutorial/README.md
+rmdir latex_tutorial/README.md
+rmdir docker_tutorial/README.md
+rmdir python_jupyter_notebooks_tutorial/README.md
+rmdir boost_tutorial/README.md
+rmdir python_matplotlib_tutorial/README.md
+rmdir supernemo_shifters_tutorial/README.md
