@@ -51,6 +51,12 @@ Additionnaly you can follow **Corey Schafer** crash course on [Youtube](https://
 Ressources
 ==========
 
+Examples
+--------
+
+You'll find in this repository several examples:
+* `./Examples/Simple/bar_colors.py`: This is an example showing how to control bar color and legend entries
+
 Website and documentations
 --------------------------
 
