@@ -2,7 +2,7 @@ Python Matplotlib tutorial
 ==========================
 
 |Authors| Pierre Charpentier|
-|---|---|
+|:---:|:---:|
 |Date| 30-01-2023|
 |Contact| charpent@lp2ib.in2p3.fr|
 
@@ -10,6 +10,7 @@ About this repository
 =====================
 
 You will find here various ressources to install and use Matplotlib.
+You may also find some Example from various sources that you might be interested in.
 
 Recommendation
 --------------
@@ -32,11 +33,11 @@ Installation
 ------------
 - Install using pip:
 
-    `$ pip install matplotlib`
+`$ pip install matplotlib`
 
 - Install using conda:
 
-    `$ conda install matplotlib`
+`$ conda install matplotlib`
 
 For more info refer to the official [install guide](https://matplotlib.org/stable/users/installing/index.html).
 
