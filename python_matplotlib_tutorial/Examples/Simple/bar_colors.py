@@ -11,13 +11,13 @@ This Example have been taken from:
     https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_colors.html#sphx-glr-gallery-lines-bars-and-markers-bar-colors-py
 """
 
-# Import the labrary
+# Import the lybrary
 import matplotlib.pyplot as plt
 
 # Create the Figure and Axes objects
 fig, ax = plt.subplots()
 
-# The data
+# The data set
 fruits = ['apple', 'blueberry', 'cherry', 'orange']
 counts = [40, 100, 30, 55]
 
