@@ -1,4 +1,11 @@
-Bash course link resources
+=============
+Bash tutorial
+=============
+
+:Authors: Guillaume Oliviéro
+:Date:    2023-01-26
+:Contact: oliviero@cenbg.in2p3.fr
+
 
 https://github.com/mfherbst/bash-course
 
