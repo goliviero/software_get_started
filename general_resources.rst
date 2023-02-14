@@ -34,6 +34,8 @@ https://rogerdudler.github.io/git-guide/
 CMake
 -----
 https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+https://github.com/pyk/cmake-tutorial
+https://github.com/ttroy50/cmake-examples
 
 CCin2p3 doc sbatch
 ==================

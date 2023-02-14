@@ -33,6 +33,7 @@ Recommended languages and softwares to learn for Master or internship students
 
 * Git tutorial
 * Bash tutorial
+* Documentation tutorial (rst, md, pandoc)
 * Cpp tutorial
 * Python tutorial
 * Python numpy tutorial
