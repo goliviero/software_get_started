@@ -66,6 +66,14 @@ Recommended languages and softwares to learn for advanced people
 Of course, if Senior people/PI want to do these tutorials as well, they are more than welcome ;).
 
 
+WIP: Tutorial progression
+=========================
+
+* cmake: 100%
+* pandoc: 100%
+* reStructured Text: 50% (missing rst cheatsheet)
+* Markdown: 50% (missing md examples)
+* Latex: 25% (missing article_skeleton, bases, cv_skeleton, presentation_skeleton, README
 
 Credits and sources used to make these tutorials
 ================================================
