@@ -71,11 +71,16 @@ Git step-by-step
 Step 1: Creating your first repository on the github interface
 --------------------------------------------------------------
 
-.. image:: img/step_1_repo.png
+
+.. figure:: img/step_1_repo.png
    :width: 1800
 
-.. image:: img/step_1_create_repo.png
+   Caption 1
+
+.. figure:: img/step_1_create_repo.png
    :width: 1800
+
+   Caption 2
 
 Step 2: Cloning your repository
 -------------------------------
