@@ -75,7 +75,7 @@ Step 1: Creating your first repository on the github interface
 .. figure:: img/step_1_repo.png
    :width: 1800
 
-   Under your account, click on Repositories and New
+   Under your account, click on Repositories and New.
 
 .. figure:: img/step_1_create_repo.png
    :width: 1800
@@ -127,7 +127,7 @@ See the status of your repository:
 
 
 .. figure:: img/step_3_git_status.png
-   :width: 1800
+   :width: 1000
 
    Git status initial before stage and commit.
 
@@ -149,7 +149,7 @@ See the status again of your repository:
 
 
 .. figure:: img/step_3_git_status_staged.png
-   :width: 1800
+   :width: 1000
 
    Git status after ``git add`` while staged.
 
@@ -166,7 +166,7 @@ Commit your new file:
 ..
 
 .. figure:: img/step_4_git_status_commit.png
-   :width: 1800
+   :width: 1000
 
    Git status after ``git commit`` and before the push.
 
