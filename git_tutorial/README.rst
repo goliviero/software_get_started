@@ -36,7 +36,7 @@ Why using git?
 - Powerful version system if you want to roll back
 - Most used collaborative tool for code
 - You can use  it for your codes, manuals BUT  also your presentations
-  AND your thesis ;).
+  AND your thesis ;)
 
 
 Set-up SSH keys
@@ -75,12 +75,14 @@ Step 1: Creating your first repository on the github interface
 .. figure:: img/step_1_repo.png
    :width: 1800
 
-   Caption 1
+   Under your account, click on Repositories and New
 
 .. figure:: img/step_1_create_repo.png
    :width: 1800
 
-   Caption 2
+   Give a  name and a short  description to your repository.  Tick the
+   ``Add  a README  file`` box  and choose  a convenient  License. GNU
+   General Public License can be chosen.
 
 Step 2: Cloning your repository
 -------------------------------
@@ -94,7 +96,10 @@ Cloning your new repository into your ``/home/user/~``:
    $ cd git-test-repo/\
 ..
 
-Screen
+.. figure:: img/step_2_clone_ssh.png
+   :width: 1800
+
+   Cloning using SSH keys.
 
 Step 3: Stage new files
 -----------------------
@@ -120,10 +125,15 @@ See the status of your repository:
    $ git status
 ..
 
-(cf screenshot)
 
-Adding your  first CPP program  to your repository. We  will ''track''
-the file we want:
+.. figure:: img/step_3_git_status.png
+   :width: 1800
+
+   Git status initial before stage and commit.
+
+
+Adding your  first CPP program  to your repository. We  will ``stage``
+(track) the file we want:
 
 .. code:: sh
 
@@ -137,7 +147,12 @@ See the status again of your repository:
    $ git status
 ..
 
-(cf screenshot)
+
+.. figure:: img/step_3_git_status_staged.png
+   :width: 1800
+
+   Git status after ``git add`` while staged.
+
 
 
 Step 4: Commit new staged files
@@ -150,7 +165,11 @@ Commit your new file:
    $ git commit -m "Add a test cpp program to my repository"
 ..
 
-screen
+.. figure:: img/step_4_git_status_commit.png
+   :width: 1800
+
+   Git status after ``git commit`` and before the push.
+
 
 The ``-m`` option allows you to do an inline commit message. Otherwise
 it  will open  an editor  inside the  terminal but  you can  give more
