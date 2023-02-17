@@ -2,6 +2,9 @@ RST
 ===
 
 https://docs.github.com/en/get-started/writing-on-github
+Official RST website: https://docutils.sourceforge.io/rst.html
+RST Quick reference: https://docutils.sourceforge.io/docs/user/rst/quickref.html
+RST cheatsheet: https://docutils.sourceforge.io/docs/user/rst/cheatsheet.txt
 
 
 Markdown
