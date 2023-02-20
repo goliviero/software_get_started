@@ -75,14 +75,14 @@ Step 1: Creating your first repository on the github interface
 .. figure:: img/step_1_repo.png
    :width: 1800
 
-   Under your account, click on Repositories and New.
+   Under your account, click on Repositories and New
 
 .. figure:: img/step_1_create_repo.png
    :width: 1800
 
-   Give a  name and a short  description to your repository.  Tick the
+   Give a name  and a short description to your  repository.  Tick the
    ``Add  a README  file`` box  and choose  a convenient  License. GNU
-   General Public License can be chosen.
+   General Public License can be chosen
 
 Step 2: Cloning your repository
 -------------------------------
@@ -92,14 +92,15 @@ Cloning your new repository into your ``/home/user/~``:
 .. code:: sh
 
    $ cd ~
-   $ git clone https://github.com/goliviero/git-test-repo.git
-   $ cd git-test-repo/\
+   $ git clone https://github.com/YOURUSERNAME/git-test-repo.git
+   # Replace username and the name of your new git repo, mine is under goliviero/git-test-repo.git
+   $ cd git-test-repo/
 ..
 
 .. figure:: img/step_2_clone_ssh.png
    :width: 1800
 
-   Cloning using SSH keys.
+   Cloning using SSH keys
 
 Step 3: Stage new files
 -----------------------
@@ -125,15 +126,14 @@ See the status of your repository:
    $ git status
 ..
 
-
 .. figure:: img/step_3_git_status.png
-   :width: 1000
+   :width: 1200
 
-   Git status initial before stage and commit.
+   Git status initial before stage and commit
 
-
-Adding your  first CPP program  to your repository. We  will ``stage``
-(track) the file we want:
+For now, the file is only existing  locally. We want to add your first
+CPP program to  your repository. First, we will  ``stage`` (track) the
+file we want:
 
 .. code:: sh
 
@@ -149,16 +149,17 @@ See the status again of your repository:
 
 
 .. figure:: img/step_3_git_status_staged.png
-   :width: 1000
+   :width: 1200
 
-   Git status after ``git add`` while staged.
+   Git status after ``git add`` while staged
 
 
 
 Step 4: Commit new staged files
 -------------------------------
 
-Commit your new file:
+After  stagging your  file, we  want to  commit your  new file  to the
+branch we are working on. For now, we are on the ``main`` branch.
 
 .. code:: sh
 
@@ -166,9 +167,9 @@ Commit your new file:
 ..
 
 .. figure:: img/step_4_git_status_commit.png
-   :width: 1000
+   :width: 1200
 
-   Git status after ``git commit`` and before the push.
+   Git status after ``git commit`` and before the push
 
 
 The ``-m`` option allows you to do an inline commit message. Otherwise
@@ -199,24 +200,44 @@ HOW TO RIGHT A GOOD COMMIT MESSAGE - few recommandations:
 Step 5: Push files remotely
 ---------------------------
 
-Push the file to the remote repository:
+Once stagged and commit, we want to push the file to the online remote
+repository:
 
 .. code:: sh
 
    $ git push
 ..
 
-screen
+
+.. figure:: img/step_5_git_push.png
+   :width: 1000
+
+   Git push on the ``main`` branch
 
 Your file has been pushed to your ``main`` branch.
 
 Step 6: Create a new branch and push it
 ---------------------------------------
 
-screen drawing
+Git  branches  are  effectively  a  pointer  to  a  snapshot  of  your
+changes. When you want to add a new feature or fix a bug—no matter how
+big or how  small—you spawn a new branch to  encapsulate your changes.
+A branch  in Git  is simply  a lightweight movable  pointer to  one of
+these  commits.  The default  branch  name  in  Git is  ``master``  or
+``main``.
 
-Creating a  new branch  for a  dedicated feature. Here  we will  add 2
-empty classes in our src directory.
+.. figure:: img/step_6_git_branch_drawing.png
+   :width: 1800
+
+First we start from our ``main`` branch:
+
+.. figure:: img/step_6_git_branch_main.png
+   :width: 1600
+
+   Make sure the starting point is the main branch in most cases
+
+Creating a  new branch for a  dedicated feature. Here we  will add two
+empty classes in our src/ directory.
 
 First we have to create the new branch ``feature_add_classes``.
 
@@ -228,16 +249,14 @@ First we have to create the new branch ``feature_add_classes``.
 the ``-b``  option allow us to  create a branch and  switch (i.e ``git
 checkout``) directly on it.
 
-screen
+.. figure:: img/step_6_git_branch_checkout_feature.png
+   :width: 1800
 
-Switch back to master branch
+   Switching to the new feature branch just created
 
-.. code:: sh
 
-   $ git checkout main
-..
-
-Then create the 2 empty classes named ``foo`` and ``bar``
+Then create  the two empty classes  named ``foo`` and ``bar``  on this
+new branch.
 
 .. code:: sh
 
@@ -245,12 +264,18 @@ Then create the 2 empty classes named ``foo`` and ``bar``
    $ touch foo.cpp foo.hpp bar.cpp bar.hpp
 ..
 
-Stage all file in the src directory at once:
+Stage  all  the  files  at  once   in  the  src  directory  on  branch
+``feature_add_classes``:
 
 .. code:: sh
 
    $ git add *
 ..
+
+.. figure:: img/step_6_git_add_star.png
+   :width: 1000
+
+   Stage all new files at once with ``git add *``
 
 Before   commit,   check   we   are  in   the   right   branch   (i.e:
 feature_add_classes):
@@ -260,16 +285,21 @@ feature_add_classes):
    $ git branch
 ..
 
-screen
+.. figure:: img/step_6_git_check_branch.png
+   :width: 1200
 
-Commit the classes to this branch:
+   Checking we are on the good branch before commit and push
+
+
+Commit the  two classes to  the ``feature_add_classes`` branch  with a
+good and explicit commit message:
 
 .. code:: sh
 
    $ git commit -m "Add two empty classes named foo and bar"
 ..
 
-First push to the upstream branch: if you try to just
+First push to the upstream branch. If you try to just:
 
 .. code:: sh
 
@@ -278,37 +308,74 @@ First push to the upstream branch: if you try to just
 
 You'll see a fatal error message:
 
-(see screenshot)
+.. figure:: img/step_6_git_push_branch_remote_error.png
+   :width: 1600
 
-The current branch feature_add_classes is  only existing on your local
-machine and has no upstream branch  remotely. We should set the remote
-as upstream using:
+   Push error message because the current local branch as no upstream branch
+
+The current  branch ``feature_add_classes``  is only existing  on your
+local machine and  has no ``upstream`` branch remotely. We  should set the
+``remote`` as ``upstream`` using:
 
 .. code:: sh
 
    $ git push --set-upstream origin feature_add_classes
 ..
 
-screen
+.. figure:: img/step_6_git_push_branch_remote_push.png
+   :width: 1700
+
+   Commit and push the new branch complete
 
 For the next pushes on this branch it  will be set so you can just use
 ``$ git push``.
 
-
-BRANCH NAMING CONVENTIONS: as for the commits, you should be brief and
-explicit about what you want to do  with a branch. You can indicate if
-you want to add a new feature  with the prefix ``feature-``, fix a bug
-with  ``bugfix-`` prefix,  test with  ``test-``  and so  on. Then  you
+BRANCH NAMING CONVENTIONS:  as for the commits, you  should be concise
+and explicit about what you want to do with a branch. You can indicate
+if you want to  add a new feature with the  prefix ``feature-``, fix a
+bug with ``bugfix-``  prefix, test with ``test-`` and so  on. Then you
 should describe briefly the purpose.
+
 
 Step 7: Open a merge/pull request
 ---------------------------------
 
 Opening a merge request through the git interface.
 
+.. figure:: img/step_7_mr_page.png
+   :width: 1700
 
-(see screenshot)
-(see screenshot)
+   Git interface  for the repository.  Click on Pull Requests  and you
+   will open the interface where you can easily open one
+
+.. figure:: img/step_7_mr_page_2.png
+   :width: 1700
+
+   Interface to create a new Pull Request
+
+.. figure:: img/step_7_mr_creation.png
+   :width: 1700
+
+   Choose the feature branch you want to merge into the main branch
+
+.. figure:: img/step_7_mr_creation_message.png
+   :width: 1700
+
+   Describe what your changes will do to the code
+
+.. figure:: img/step_7_mr_creation_success.png
+   :width: 1700
+
+   The  merge request  is  now  open and  someone  else  (or you)  can
+   crosshcheck  your  changes  and  then  accept  or  not  your  merge
+   request. It is  a space of discussion where someone  can ask you to
+   do some modifications and so on.
+
+.. figure:: img/step_7_mr_creation_success_2.png
+   :width: 1700
+
+   Accepted merge request (``Merged``)
+
 
 Note 1: merge request and pull request are the same thing.
 
@@ -320,7 +387,11 @@ Step 8: Pull and update your repository
 
 Pull the changes in your main local branch from remote
 
-screen checkout main
+.. figure:: img/step_8_git_checkout.png
+   :width: 1200
+
+   Checkout  the  ``main`` branch  after  the  ``feature`` branch  was
+   merged into the ``main`` on the remote git interface
 
 .. code:: sh
 
@@ -328,7 +399,7 @@ screen checkout main
 ..
 
 The ``--all`` option allows you to pull  the commits as well as all of
-the branches from the remote.]
+the branches from the remote.
 
 The changes you made on the feature  branch are now on the main branch
 and the 2 new classes ``foo`` and ``bar`` are available.
@@ -338,9 +409,8 @@ Step 9: Delete your branch localy and remotely
 
 Deleting the branch you worked on (i.e ``feature_add_classes``  branch).
 
-You can delete it through the git interface
-
-(see screenshot)
+You can delete it through the  git interface after accepting the merge
+request.
 
 But  you can  also delete  it  manually and  push this  from local  to
 remote.  First of  all, git  won't let  you remove  the branch  you're
@@ -359,6 +429,11 @@ Delete the branch locally:
    $ git branch -d feature_add_classes
 ..
 
+.. figure:: img/step_9_delete_branch.png
+   :width: 1700
+
+   Deleting localy the ``feature`` branch
+
 Then propagate it remotely:
 
 .. code:: sh
@@ -366,14 +441,26 @@ Then propagate it remotely:
    $ git push origin --delete feature_add_classes
 ..
 
+.. figure:: img/step_9_delete_branch_remote.png
+   :width: 1700
+
+   Deleting remotely the ``feature`` branch
+
+
+
 and see the result on your git repository interface:
 
-(see screenshot)
+.. figure:: img/step_9_delete_branch_interface.png
+   :width: 1700
 
+   Git  repository interface  without  the feature  branch because  we
+   deleted it
 
 
 Useful git commands
 ===================
+
+In this section I will provide some useful git commands.
 
 Reset a commit not pushed to remote:
 
