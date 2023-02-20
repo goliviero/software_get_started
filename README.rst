@@ -34,10 +34,11 @@ Recommended languages and softwares to learn for Master or internship students
 * Git tutorial
 * Bash tutorial
 * Documentation tutorial (rst, md, pandoc)
+* Latex tutorial
 * Cpp tutorial
 * Python tutorial
-* Python numpy tutorial
 * Python matplotlib tutorial
+* Python numpy tutorial
 * ROOT tutorial
 * Python pyroot and uproot
 * Falaise tutorial
@@ -82,6 +83,7 @@ In development tutorials
 * reStructured Text: 50% (missing rst cheatsheet)
 * Markdown: 50% (missing md examples)
 * Latex: 25% (missing article_skeleton, bases, cv_skeleton, presentation_skeleton, README
+* Python_matplotlib: 66% Pierre is working on it, see MR
 
 Credits and sources used to make these tutorials
 ================================================
