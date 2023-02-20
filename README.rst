@@ -69,8 +69,16 @@ Of course, if Senior people/PI want to do these tutorials as well, they are more
 WIP: Tutorial progression
 =========================
 
+Complete tutorials
+------------------
+
 * cmake: 100%
 * pandoc: 100%
+* git: 100%
+
+In development tutorials
+------------------------
+
 * reStructured Text: 50% (missing rst cheatsheet)
 * Markdown: 50% (missing md examples)
 * Latex: 25% (missing article_skeleton, bases, cv_skeleton, presentation_skeleton, README
