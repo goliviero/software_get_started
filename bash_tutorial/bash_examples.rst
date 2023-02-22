@@ -1,7 +1,21 @@
-================================
-Some bash examples and use cases
-================================
+=================================================
+Bash simple commands, some examples and use cases
+=================================================
 
+:Authors: Guillaume Oliviéro
+:Date:    2023-01-26
+:Contact: oliviero@cenbg.in2p3.fr
+
+.. contents:: Table of Contents
+
+Bash simple common commands
+===========================
+
+
+
+
+Bash examples and use cases
+===========================
 
 Directory and file handling
 ---------------------------

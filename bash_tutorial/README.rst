@@ -6,6 +6,7 @@ Bash tutorial
 :Date:    2023-01-26
 :Contact: oliviero@cenbg.in2p3.fr
 
+.. contents:: Table of Contents
 
 Resources
 =========
