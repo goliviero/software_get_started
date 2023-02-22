@@ -39,8 +39,8 @@ Why using git?
   AND your thesis ;)
 
 
-Set-up SSH keys
-===============
+Step 0 - Prerequisite:  set-up SSH keys
+=======================================
 
 You must follow this small github documentation guide:
 
@@ -67,6 +67,9 @@ to commit something, it will be done through SSH keys.
 
 Git step-by-step
 ================
+
+Note: Merge Request (MR) and Pull Request (PR) are the same thing.
+
 
 Step 1: Creating your first repository on the github interface
 --------------------------------------------------------------
@@ -376,10 +379,7 @@ Opening a merge request through the git interface.
 
    Accepted merge request (``Merged``)
 
-
-Note 1: merge request and pull request are the same thing.
-
-Note  2: we  can do  it with  the  command line  but it  is much  less
+Note:  we  can do  it  with  the command  line  but  it is  much  less
 convenient. I'll let you look online for this.
 
 Step 8: Pull and update your repository
