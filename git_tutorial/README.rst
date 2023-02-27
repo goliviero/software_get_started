@@ -462,6 +462,14 @@ Useful git commands
 
 In this section I will provide some useful git commands.
 
+Git add all tracked files and commit in a 1 line command. It can be dangerous if you don't want to add and commit ALL your tracked files:
+
+.. code:: sh
+
+   $ git commit -a -m "Commit message"
+..
+
+
 Reset a commit not pushed to remote:
 
 .. code:: sh
