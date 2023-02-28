@@ -29,16 +29,16 @@ More aliases for listing files:
 
 .. code:: sh
 
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+   alias ll='ls -alF'
+   alias la='ls -A'
+   alias l='ls -CF'
 ..
 
 To add yellow color for some files (.root, .brio and .bin):
 
 .. code:: sh
 
-export LS_COLORS="$LS_COLORS:*.root=33;1:*.brio=33;1:*.bin=31;1"
+   export LS_COLORS="$LS_COLORS:*.root=33;1:*.brio=33;1:*.bin=31;1"
 ..
 
 
