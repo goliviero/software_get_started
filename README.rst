@@ -53,36 +53,37 @@ Recommended languages and softwares to learn for Master or internship students
 ------------------------------------------------------------------------------
 
 * `Git tutorial <git_tutorial>`_
-* Bash tutorial
-* Documentation tutorial (rst, md, pandoc)
-* Latex tutorial
-* Cpp tutorial
-* Python tutorial
-* Python matplotlib tutorial
-* Python numpy tutorial
-* ROOT tutorial
-* Python pyroot and uproot
-* Falaise tutorial
-* Supernemo shifter tutorial
-* Slack tutorial
+* `Bash tutorial <bash_tutorial>`_
+* `Documentation tutorial (rst, md, pandoc) <documentation_tutorial>`_
+* `Latex tutorial <latex_tutorial>`_
+* `Cpp tutorial <cpp_tutorial>`_
+* `Python tutorial <python_tutorial>`_
+* `Python matplotlib tutorial <python_matplotlib_tutorial>`_
+* `Python numpy tutorial <python_numpy_tutorial>`_
+* `ROOT tutorial <ROOT_tutorial>`_
+* `Python pyroot and uproot <python_root_tutorial>`_
+* `Falaise tutorial <falaise_tutorial>`_
+* `Supernemo shifter tutorial <supernemo_shifters_tutorial>`_
+* `Slack tutorial <slack_tutorial>`_
 
 Recommended languages and softwares to learn for PhD students
 -------------------------------------------------------------
 
 * All recommendations for Master or internship students
-* Cmake tutorial
-* Python pandas tutorial
-* Python jupyter notebooks
-* Boost library (short introduction)
+* `Text editor tutorial (emacs or vim) <text_editor_tutorial>`_
+* `Cmake tutorial <cmake_tutorial>`_
+* `Python pandas tutorial <python_pandas_tutorial>`_
+* `Python jupyter notebooks <python_jupyter_notebooks_tutorial>`_
+* `Boost library (short introduction) <boost_tutorial>`_
 
 
 Recommended languages and softwares to learn for advanced people
 ----------------------------------------------------------------
 
 * All recommendations for PhD students
-* Geant4 tutorial
-* Bayeux tutorial
-* Containers tutorial (Docker and Singularity)
+* `Geant4 tutorial <geant4_tutorial>`_
+* `Bayeux tutorial <bayeux_tutorial>`_
+* `Containers tutorial (Docker and Singularity) <containers_tutorial>`_
 
 
 Of course, if Senior people/PI want to do these tutorials as well, they are more than welcome ;).
