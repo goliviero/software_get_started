@@ -46,7 +46,7 @@ To expand paths in the shell after a ${} variable
 
 .. code:: sh
 
-shopt -s direxpand
+   shopt -s direxpand
 ..
 
 
@@ -58,19 +58,19 @@ To automatically update and upgrade your linux system:
 
 .. code:: sh
 
-function do_linux_update()
-{
-   echo "NOTICE: Updating, upgrading and cleaning linux !" >&2
-   sudo apt autoremove
-   sudo apt update
-   sudo apt upgrade
-   sudo apt autoremove
-   sudo apt clean
-   sudo -k
-   echo "NOTICE: Linux was updated, upgraded and cleaned !" >&2
-   return;
-}
-export -f do_linux_update
+   function do_linux_update()
+   {
+     echo "NOTICE: Updating, upgrading and cleaning linux !" >&2
+     sudo apt autoremove
+     sudo apt update
+     sudo apt upgrade
+     sudo apt autoremove
+     sudo apt clean
+     sudo -k
+     echo "NOTICE: Linux was updated, upgraded and cleaned !" >&2
+     return;
+   }
+   export -f do_linux_update
 ..
 
 To remove all tilde files recursively. It can be dangerous if for some
@@ -78,37 +78,37 @@ reason you want to keep some backup tilde files.
 
 .. code:: sh
 
-function remove_tilde()
-{
-    echo "Removing tilde files '*~'..."
-    `rm_tilde`
-    if [ $? -ne 1 ];
-    then
-        echo "INFO : Tilde files were removed successfully !"
-    fi
-}
+   function remove_tilde()
+   {
+     echo "Removing tilde files '*~'..."
+     `rm_tilde`
+     if [ $? -ne 1 ];
+     then
+     echo "INFO : Tilde files were removed successfully !"
+     fi
+   }
 ..
 
 To launch emacs as a daemon:
 
 .. code:: sh
 
-function launch_emacs()
-{
+   function launch_emacs()
+   {
     emacs --daemon
     echo "NOTICE: Emacs daemon is now setup"
     echo ""
     echo "***********"
     echo "WARNING: TO RESTORE ALL SAVED BUFFERS, DO : M-X ret : sk-desktop in the first emacs daemon !"
     echo "***********"
-}
+   }
 ..
 
 To extract any compressed file:
 
 .. code:: sh
 
-extract() {
+   extract() {
     if [ -f $1 ] ; then
 	    case $1 in
             *.tar.bz2)   tar xvf $1    ;;
@@ -127,7 +127,7 @@ extract() {
     else
 	    echo "'$1' is not a valid file!"
     fi
-}
+   }
 ..
 
 To reset your paths and empty the variable you set previously:
