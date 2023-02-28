@@ -19,14 +19,34 @@ Licensing
 Supported environments
 ----------------------
 
+Linux is supported.
+
+For now,  I have only  tested the  different tutorials on  my personal
+machine which is:
+
+.. code:: sh
+
+   Linux Mint Dell-Latitude-5420 5.15.0-60-generic #66-Ubuntu 22.04.2 LTS SMP x86_64 GNU/Linux
+..
+
+For mac  user it  should be  close to Linux  user and  interface. Some
+things can change for paths or  bash things. Please have a look online
+if you encounter specific issue related to mac-usage.
+
+For Windows people, well... Good luck.
+
+
 Getting Help
 ============
 
-Please use the github issues system to open a discussion on a specific topic.
+Please use the github issues system to open a discussion on a specific
+topic.
 
 
 How to use this repository?
 ===========================
+
+
 
 
 Recommended languages and softwares to learn for Master or internship students
