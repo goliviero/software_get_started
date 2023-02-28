@@ -52,7 +52,7 @@ How to use this repository?
 Recommended languages and softwares to learn for Master or internship students
 ------------------------------------------------------------------------------
 
-* Git tutorial
+* `Git tutorial <git_tutorial>`_
 * Bash tutorial
 * Documentation tutorial (rst, md, pandoc)
 * Latex tutorial
@@ -103,6 +103,7 @@ In development tutorials
 
 * reStructured Text: 50% (missing rst cheatsheet)
 * Markdown: 50% (missing md examples)
+* Bash: 25% (missing main tutorial, some examples and 1 use-case)
 * Latex: 25% (missing article_skeleton, bases, cv_skeleton, presentation_skeleton, README
 * Python_matplotlib: 66% Pierre is working on it, see MR
 
