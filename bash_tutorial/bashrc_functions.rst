@@ -34,14 +34,14 @@ More aliases for listing files:
    alias l='ls -CF'
 ..
 
-To expand paths in the shell after a ${} variable:
+Expand paths in the shell after a ${} variable:
 
 .. code:: sh
 
    shopt -s direxpand
 ..
 
-To connect through an SSH connection to a remote server more easily:
+Connect through an SSH connection to a remote server more easily:
 
 .. code:: sh
 
@@ -93,7 +93,9 @@ The base directory of all my software (convenient path variable):
    export SW_WORK_DIR="/home/username/software"
 ..
 
-To add yellow color for some files (.root, .brio and .bin):
+If you  want to  change the color  when you ``ls``  in the  shell, see
+`this link  <https://linuxhint.com/ls_colors_bash/>`_. For example,add
+yellow color for some files (.root, .brio and .bin):
 
 .. code:: sh
 
@@ -104,7 +106,7 @@ To add yellow color for some files (.root, .brio and .bin):
 Functions
 =========
 
-To automatically update and upgrade your linux system:
+Automatically update and upgrade your linux system:
 
 .. code:: sh
 
@@ -123,7 +125,7 @@ To automatically update and upgrade your linux system:
    export -f do_linux_update
 ..
 
-To remove all tilde files recursively. It can be dangerous if for some
+Remove all  tilde files recursively. It  can be dangerous if  for some
 reason you want to keep some backup tilde files:
 
 .. code:: sh
@@ -139,7 +141,8 @@ reason you want to keep some backup tilde files:
    }
 ..
 
-To launch emacs as a daemon:
+Launch emacs as  a daemon (once per session, it  will be persistent in
+other shells):
 
 .. code:: sh
 
@@ -154,7 +157,7 @@ To launch emacs as a daemon:
    }
 ..
 
-To extract any compressed file:
+Extract any compressed file:
 
 .. code:: sh
 
@@ -182,7 +185,7 @@ To extract any compressed file:
    export -f extract
 ..
 
-To reset your paths and empty the variables you set previously:
+Reset your paths and empty the variables you set previously:
 
 .. code:: sh
 
@@ -201,7 +204,7 @@ To reset your paths and empty the variables you set previously:
    export -f do_reset_paths_and_variables
 ..
 
-To mount the remote scratch using the alias defined above:
+Mount the remote scratch using the alias defined above:
 
 .. code:: sh
 
@@ -212,7 +215,7 @@ To mount the remote scratch using the alias defined above:
    }
 ..
 
-To unmount the remote scratch:
+Unmount the remote scratch:
 
 .. code:: sh
 
