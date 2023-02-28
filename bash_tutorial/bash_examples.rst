@@ -71,9 +71,18 @@ Print the Elapsed Time of Code Execution
 Search and Replace Strings in Files
 -----------------------------------
 
+Find a given string and replace it with an other string in a file
+
 .. code:: sh
 
    $ find . -type f -exec grep -l "localhost:8000" {} \; | xargs sed -i 's/localhost:8000/localhost:8080/g'
+..
+
+Find a given string in a given file and delete the line containing the string:
+
+.. code:: sh
+
+   $ grep -rl 'string' file.txt | xargs sed -i '/string/d' file.txt
 ..
 
 Delete Specific Files
