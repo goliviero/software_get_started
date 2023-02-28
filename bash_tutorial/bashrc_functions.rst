@@ -60,15 +60,15 @@ To automatically update and upgrade your linux system:
 
    function do_linux_update()
    {
-     echo "NOTICE: Updating, upgrading and cleaning linux !" >&2
-     sudo apt autoremove
-     sudo apt update
-     sudo apt upgrade
-     sudo apt autoremove
-     sudo apt clean
-     sudo -k
-     echo "NOTICE: Linux was updated, upgraded and cleaned !" >&2
-     return;
+          echo "NOTICE: Updating, upgrading and cleaning linux !" >&2
+          sudo apt autoremove
+          sudo apt update
+          sudo apt upgrade
+          sudo apt autoremove
+          sudo apt clean
+          sudo -k
+          echo "NOTICE: Linux was updated, upgraded and cleaned !" >&2
+          return;
    }
    export -f do_linux_update
 ..
