@@ -37,16 +37,22 @@ For Windows people, well... Good luck.
 
 
 Getting Help
-============
+------------
 
 Please use the github issues system to open a discussion on a specific
 topic.
 
 
+Contributing to this repository
+-------------------------------
+
+The  ``main`` branch  of this  repo is  protected and  if you  want to
+contribute to it you must create  a separate feature branch and open a
+Pull Request.
+
+
 How to use this repository?
 ===========================
-
-
 
 
 Recommended languages and softwares to learn for Master or internship students
