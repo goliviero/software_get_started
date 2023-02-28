@@ -87,6 +87,7 @@ Exported variables
 ==================
 
 The base directory of all my software (convenient path variable):
+
 .. code:: sh
 
    export SW_WORK_DIR="/home/username/software"
@@ -181,7 +182,7 @@ To extract any compressed file:
    export -f extract
 ..
 
-To reset your paths and empty the variable you set previously:
+To reset your paths and empty the variables you set previously:
 
 .. code:: sh
 
@@ -200,7 +201,7 @@ To reset your paths and empty the variable you set previously:
    export -f do_reset_paths_and_variables
 ..
 
-To mount the remote scratch:
+To mount the remote scratch using the alias defined above:
 
 .. code:: sh
 
@@ -239,8 +240,8 @@ some very weird issues.
    {
           echo "[info] do_base_physics_setup: loading CLHEP GEANT4.10 ROOT6.20 and BxDecay0, will update PATH and LD_LIBRARY_PATH variables !" >&2
 
-          # Add CLHEP to the path
-          if [ -n "${CLHEP_INSTALL_DIR}" ]; then
+          # Add CLHEP to the PATH
+          IF [ -n "${CLHEP_INSTALL_DIR}" ]; then
               echo "[warning] do_base_physics_setup: CLHEP is already setup, PATH was not updated !" >&2
               return 1
           fi
@@ -249,8 +250,8 @@ some very weird issues.
           export LD_LIBRARY_PATH=${CLHEP_INSTALL_DIR}/lib:${LD_LIBRARY_PATH}
           echo "[info] do_base_physics_setup: CLHEP (v2.4.1.0) is now setup !" >&2
 
-          # Add G4 to the PATH
-          if [ -n "${GEANT4_INSTALL_DIR}" ]; then\
+          # Add Geant4 to the PATH
+          if [ -n "${GEANT4_INSTALL_DIR}" ]; then
               echo "[warning] do_base_physics_setup: Geant4 is already setup, PATH was not updated !" >&2
 	          return 1
           fi
@@ -324,9 +325,8 @@ use. Here I'll load Bayeux software with this function:
           echo "[info] do_bayeux_setup: LD_LIBRARY_PATH=${LD_LIBRARY_PATH}" >&2
           echo "[info] do_bayeux_setup: Exiting function... !" >&2
           return;
-}
-export -f do_bayeux_setup
-
+   }
+   export -f do_bayeux_setup
 ..
 
 And then  I can  load Falaise  with this function  which is  the final
