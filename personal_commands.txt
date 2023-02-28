@@ -12,6 +12,9 @@ mkdir -p documentation_tutorial/resources
 mkdir -p latex_tutorial/resources
 mkdir -p docker_tutorial/resources
 mkdir -p boost_tutorial/resources
+mkdir -p python_numpy_tutorial
+mkdir -p python_pandas_tutorial
+mkdir -p python_root_tutorial
 mkdir -p python_jupyter_notebooks_tutorial/resources
 mkdir -p python_matplotlib_tutorial/resources
 mkdir -p supernemo_shifters_tutorial/resources
@@ -32,6 +35,9 @@ touch documentation_tutorial/markdown_example.rst
 touch documentation_tutorial/restructured_text_example.rst
 touch latex_tutorial/README.rst
 touch docker_tutorial/README.rst
+touch python_numpy_tutorial/README.rst
+touch python_pandas_tutorial/README.rst
+touch python_root_tutorial/README.rst
 touch python_jupyter_notebooks_tutorial/README.rst
 touch boost_tutorial/README.rst
 touch python_matplotlib_tutorial/README.rst
