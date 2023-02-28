@@ -57,6 +57,7 @@ Recommended languages and softwares to learn for Master or internship students
 * `Documentation tutorial (rst, md, pandoc) <documentation_tutorial>`_
 * `Latex tutorial <latex_tutorial>`_
 * `Cpp tutorial <cpp_tutorial>`_
+* `Doxygen tutorial <doxygen_tutorial>`_
 * `Python tutorial <python_tutorial>`_
 * `Python matplotlib tutorial <python_matplotlib_tutorial>`_
 * `Python numpy tutorial <python_numpy_tutorial>`_

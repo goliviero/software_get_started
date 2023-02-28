@@ -6,6 +6,12 @@ General resources
 :Date:    2023-01-26
 :Contact: oliviero@cenbg.in2p3.fr
 
+Data processing courses
+
+http://ipnwww.in2p3.fr/cours-ne-data-processing/
+https://xgarrido.github.io/
+
+
 Advanced language learning
 ==========================
 https://github.com/practical-tutorials/project-based-learning
@@ -51,6 +57,7 @@ Doxygen
 
 C++
 ===
+(FR) https://xgarrido.github.io/master_cpp_teaching/
 (FR) https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/
 (FR) CPP14 https://zestedesavoir.com/articles/28/le-c-14-est-arrive/
 
@@ -86,6 +93,7 @@ Python
 
 Basics
 ------
+(FR) https://xgarrido.github.io/licence_python_teaching/
 
 https://docs.python.org/3/tutorial/
 
