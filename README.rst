@@ -86,7 +86,8 @@ Recommended languages and softwares to learn for advanced people
 * `Containers tutorial (Docker and Singularity) <containers_tutorial>`_
 
 
-Of course, if Senior people/PI want to do these tutorials as well, they are more than welcome ;).
+Of course, if researchers, teachers or  senior people want to do these
+tutorials as well, they are more than welcome ;).
 
 
 WIP: Tutorial progression

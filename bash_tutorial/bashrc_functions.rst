@@ -64,8 +64,8 @@ example alias command to put in your bashrc:
    export REMOTE_SCRATCH_PATH="/home/username/Desktop/remote_scratch_home"
 ..
 
-Warning: remote_scratch_home  must be  an  already  created empty  directory
-created BEFORE you do the sshfs command.
+``Warning:  remote_scratch_home  must  be  an  already  created  empty
+directory created BEFORE you do the sshfs command.``
 
 Look for a process running (or not):
 
