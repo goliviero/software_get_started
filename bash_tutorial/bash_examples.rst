@@ -22,10 +22,10 @@ command is available under ``man`` command. Example with ``ssh``:
 It is pretty explicit and it's listing **ALL** options with examples.
 
 One fun alternative is the ``tldr`` package. It stands for ``too long;
-didn't   read``   which   is   a   common   expression   on   internet
-forums. According to the command ``$ tldr tldr``, it display simple help
-pages for command-line  tools from the tldr-pages  project. Install it
-first and then try it on a dedicated command:
+ didn't   read``   which   is   a  common   expression   on   internet
+ forums. According to  the command ``$ tldr tldr``,  it display simple
+ help   pages    for   command-line   tools   from    the   tldr-pages
+ project. Install it first and then try it on a dedicated command:
 
 .. code:: sh
 
