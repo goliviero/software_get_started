@@ -6,7 +6,7 @@ Git tutorial
 :Date:    2023-02-17
 :Contact: oliviero@cenbg.in2p3.fr
 
-.. contents:: Table of Contents
+.. contents::
 
 Goal of the tutorial
 ====================

@@ -6,7 +6,7 @@ CMake Tutorial
 :Date:    2023-02-15
 :Contact: oliviero@cenbg.in2p3.fr
 
-.. contents:: Table of Contents
+.. contents::
 
 Goals of the tutorial
 =====================

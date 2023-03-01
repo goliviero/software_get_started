@@ -6,7 +6,7 @@ Getting started on software for research
 :Date:    2023-01-26
 :Contact: oliviero@cenbg.in2p3.fr
 
-.. contents:: Table of Contents
+.. contents::
 
 General remarks
 ===============
