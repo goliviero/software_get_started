@@ -115,6 +115,7 @@ Automatically update and upgrade your linux system:
           sudo apt autoremove
           sudo apt update
           sudo apt upgrade
+          sudo snap refresh # To update external applications like firefox
           sudo apt autoremove
           sudo apt clean
           sudo -k
