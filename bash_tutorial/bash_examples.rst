@@ -11,7 +11,43 @@ Bash simple commands, some examples and use cases
 Bash simple common commands
 ===========================
 
+``RTFM``  (``Read The  Fucking Manual``),  the manual  for each  linux
+command is available under ``man`` command. Example with ``ssh``:
 
+.. code:: sh
+
+   $ man ssh
+..
+
+It is pretty explicit and it's listing **ALL** options with examples.
+
+One fun alternative is the ``tldr`` package. It stands for ``too long;
+didn't   read``   which   is   a   common   expression   on   internet
+forums. According to the command ``$ tldr tldr``, it display simple help
+pages for command-line  tools from the tldr-pages  project. Install it
+first and then try it on a dedicated command:
+
+.. code:: sh
+
+   $ sudo apt  install tldr
+
+   # Example with the ssh command:
+   $ tldr ssh
+
+  ssh
+
+  Secure Shell is a protocol used to securely log onto remote systems.
+  It can be used for logging or executing commands on a remote server.
+  More information: https://man.openbsd.org/ssh.
+
+  - Connect to a remote server:
+    ssh username@remote_host
+
+  - Connect to a remote server with a specific identity (private key):
+    ssh -i path/to/key_file username@remote_host
+
+    # and so on....
+..
 
 
 Bash examples and use cases
@@ -44,13 +80,41 @@ loop bash command like this:
 that's why we are using the braces ``{ }``.
 
 
-Searching in files
-------------------
+Searching in dir/files
+----------------------
+
+One of the most useful command is ``grep``. You can search for a given
+string recursively with the following command and it will show you all
+the files where  the given string is. It find  patterns in files using
+regular expressions.  The ``-i`` option is to ignore case distinctions
+and ``-r`` option is to read all files under each directory. Note that
+you should always  use ``" "`` caracters to be  sure it is interpreted
+as a string, and the whitespaces or symbols are well interpreted.
+
+.. code:: sh
+
+   $ grep -ri "string_to_search"
+..
+
+Similar  function can  be to  use  find if  you  want to  search in  a
+specific type of files.  As you can  see you can combine find and grep
+command using ``-exec``.
 
 .. code:: sh
 
    $ find . -type f -exec grep -l "wordtofind" {} \;
 ..
+
+An other example where  it can search for a pattern in  a set of files
+using find,  pipe ``|``, xargs  and grep  commands. In bash  there are
+several methods to do the exact same thing and each one has advantages
+and inconvenients.
+
+.. code:: sh
+
+   $ find . -name "*py" | xargs grep "import sys"
+..
+
 
 Print the Elapsed Time of Code Execution
 ----------------------------------------
