@@ -6,12 +6,12 @@ Bash simple commands, some examples and use cases
 :Date:    2023-01-26
 :Contact: oliviero@cenbg.in2p3.fr
 
-.. contents:: Table of Contents
+.. contents::
 
 Bash simple common commands
 ===========================
 
-``RTFM``  (``Read The  Fucking Manual``),  the manual  for each  linux
+``RTFM``  (``Read The F*cking Manual``),  the manual  for each  linux
 command is available under ``man`` command. Example with ``ssh``:
 
 .. code:: sh
@@ -21,8 +21,8 @@ command is available under ``man`` command. Example with ``ssh``:
 
 It is pretty explicit and it's listing **ALL** options with examples.
 
-One fun alternative is the ``tldr`` package. It stands for ``too long; didn't   read``   which   is   a   common   expression   on   internet
-forums. According  to the command  ``$ tldr tldr``, it  display simple
+One fun alternative is the ``tldr`` package. It stands for ``too long; didn't read``   which   is   a   common   expression   on   internet
+forums. According  to the command  ``$ tldr tldr``, it  displays simple
 help pages for command-line tools from the tldr-pages project. Install
 it first and then try it on a dedicated command:
 
@@ -148,6 +148,16 @@ Find a given string in a given file and delete the line containing the string:
    $ grep -rl 'string' file.txt | xargs sed -i '/string/d' file.txt
 ..
 
+
+Replace a given string recursively in  same files. Example I wanted to
+remove  the  string  "  Table  of  Contents"  by  nothing  in  all  my
+``README.rst`` of this repository:
+
+.. code:: sh
+
+   $ sed -i  "s/ Table of Contents//g" */README.rst
+..
+
 Delete Specific Files
 ---------------------
 
@@ -167,8 +177,6 @@ To delete all files older than 25 days, run this command:
 
 Download and upload files from remote server
 --------------------------------------------
-
-For example: CCIN2P3
 
 Use this command to download a file from a server and save it locally:
 
