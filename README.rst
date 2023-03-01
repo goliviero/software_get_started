@@ -8,6 +8,40 @@ Getting started on software for research
 
 .. contents:: Table of Contents
 
+General remarks
+===============
+
+Welcome  on  this repository  centralizing  a  lot of  information  on
+different  softwares  or  languages  used in  the  world  of  academic
+research. My goal in my collaboration  in particle physics was to give
+to new  students a  place to start  to learn how  to use  our software
+stack. It can  be relevant (or not)  to you because I am  working on a
+Particle Physics experiment so it can  be too specific for you but you
+can adapt what you see here to your field or applications.
+
+An  useful   way  to  get   documemtation  or  help  is   through  the
+`stackoverflow  website   <https://stackoverflow.com/>`_.   It   is  a
+question and answer website for  programmers. It will become your best
+friend for each code or  software related questions.  People are smart
+and share a lots of their code on it.
+
+Also, `github <https://github.com/>`_  is also a good  place to get
+software snippets you can copy and then adapt to your application.
+
+Finally,  `ChatGPT <https://chat.openai.com/chat>`_  can be  also very
+useful. This artificial intelligence chatbot using supervised learning
+as  well  as  reinforcement  learning can  help  you  on  developping,
+debugging, understand a code or  writing a documentation.  You can ask
+him a lot of details on  errors, code, documentation but also start to
+create some  atomic program  you'll use  in your  bigger applications.
+You can try  to get more information from him  giving him more context
+on who you  are, for example a  phd in particle physics  or a software
+developper and he will go deeper in the explanations. Not 100% perfect
+but can be helpful and worth  mentioning.  but can be helpful and it's
+worth mentioning it.
+
+
+
 About this repository
 =====================
 
@@ -29,7 +63,7 @@ machine which is:
    Linux Mint Dell-Latitude-5420 5.15.0-60-generic #66-Ubuntu 22.04.2 LTS SMP x86_64 GNU/Linux
 ..
 
-For mac  user it  should be  close to Linux  user and  interface. Some
+For Mac  user it  should be  close to Linux  user and  interface. Some
 things can change for paths or  bash things. Please have a look online
 if you encounter specific issue related to mac-usage.
 
