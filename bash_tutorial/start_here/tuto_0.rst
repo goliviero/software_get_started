@@ -9,13 +9,40 @@ Tutorial step 0
 Tutorial Goals
 ==============
 
+Test before note
+
 .. note::
-   This tutorial will be data processing oriented because this is what
-   our  new students  are interested  by. It  can be  relevant or  not
-   depending on  the field  you are  working but I'll  try to  stay as
+   This tutorial will be  data processing oriented because this
+   is what our  new students are interested by. It  can be relevant or
+   not depending on the field you are  working but I'll try to stay as
    generic as possible.
 
    Test successive paragraphs
+
+.. warning::
+   Test warning block
+
+.. caution::
+   Test caution block
+
+.. danger::
+   Test danger block
+
+.. error::
+   Test error block
+
+.. hint::
+   Test hint block
+
+.. important::
+   Test important block
+
+.. tip::
+   Test tip block
+
+
+Test after note
+
 
 
 - Create a new script. Load a given environment.
