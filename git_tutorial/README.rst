@@ -191,7 +191,7 @@ HOW TO RIGHT A GOOD COMMIT MESSAGE - few recommandations:
 
   - ``Enable Logging Globally``
   - ``Add Account Delete Route
-      Needed for account deletion workflow on frontend``
+    Needed for account deletion workflow on frontend``
 
 - Bad examples:
 
