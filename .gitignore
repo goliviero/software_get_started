@@ -35,3 +35,6 @@
 # Distribution / packaging
 build/
 install/
+
+# MacOS file system
+**/.DS_Store
