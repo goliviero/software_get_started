@@ -6,7 +6,7 @@ Vim tutorial
 :Date:    2023-02-28
 :Contact: oliviero@cenbg.in2p3.fr
 
-.. contents:: Table of Contents
+.. contents::
 
 Goals of the tutorial
 =====================
