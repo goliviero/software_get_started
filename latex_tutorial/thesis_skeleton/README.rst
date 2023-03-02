@@ -40,8 +40,6 @@ Compilation
 
 
 
-
-=====================================
 Git for PhD writing (english version)
 =====================================
 

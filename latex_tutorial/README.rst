@@ -44,21 +44,21 @@ Main differences between the ``book``, ``report``, and ``article`` document clas
 
 Differences with regard to available commands and environments:
 
-- ``book`` and  ``report`` feature the `\chapter`  sectioning command,
+- ``book`` and ``report`` feature the ``\chapter`` sectioning command,
   while ``article`` doesn't.
 
-- In ``book`` and ``report``, `\appendix` will cause `\chapters` to be
-  typeset as  `Appendix X` instead  of `Chapter X`.   For ``article``,
-  this isn't applicable.
+- In ``book``  and ``report``, ``\appendix`` will  cause ``\chapters``
+  to  be typeset  as  ``Appendix  X` instead  of  ``Chapter X``.   For
+  ``article``, this isn't applicable.
 
-- ``book`` and  ``report`` will start  a new  page for \parts  , while
+- ``book`` and ``report`` will start a new page for ``\parts`` , while
   ``article`` won't.
 
-- ``book``  offers  the  \frontmatter,  \mainmatter,  and  \backmatter
-  commands  to control  page numbering  (Roman for  the front  matter,
-  arabic elsewhere)  and numbering of sectioning  titles (no numbering
-  in  the front  and back  matter), while  ``report`` and  ``article``
-  don't.
+- ``book``   offers   the   ``\frontmatter``,   ``\mainmatter``,   and
+  ``\backmatter`` commands  to control  page numbering (Roman  for the
+  front matter,  arabic elsewhere) and numbering  of sectioning titles
+  (no numbering  in the front  and back matter), while  ``report`` and
+  ``article`` don't.
 
 - ``book`` doesn't  offer the  abstract environment,  while ``report``
   and ``article`` do.
@@ -76,28 +76,29 @@ Differences with regard to default settings:
   between openright and openany isn't applicable.
 
 - ``book`` uses the headings pagestyle for non-chapter-starting pages,
-while ``report`` and ``article`` always use plain.
+  while ``report`` and ``article`` always use plain.
 
 - ``book``  and  ``report`` use  titlepage  (the  title page  and  `if
-applicable` the abstract environment will be typeset on pages of their
-own), while ``article`` uses notitlepage.
+  applicable` the  abstract environment  will be  typeset on  pages of
+  their own), while ``article`` uses notitlepage.
 
 - For  ``book`` and  ``report``, the  lowest-level sectioning  command
   which is  numbered and  incorporated into the  table of  contents is
-  \subsection, while for ``article`` it is \subsubsection.
+  ``\subsection``, while for ``article`` it is ``\subsubsection``.
 
-- ``book``  and ``report``  will use  the arguments  of \chapters  and
-  \sections for running headings (if such headings are present), while
-  ``article`` will use \sections and \subsections.
+- ``book`` and ``report`` will use  the arguments of ``\chapters`` and
+  ``\sections`` for  running headings (if such  headings are present),
+  while ``article`` will use ``\sections`` and ``\subsections``.
 
 - ``book`` and  ``report`` will number floats  (figures, tables etc.),
   equations, and footnotes per  chapter, while ``article`` will number
-  them continuously.  Note that  footnotes --  even when  numbered per
-  chapter -- do not feature a chapter prefix.
+  them  continuously.  Note  that  footnotes, even  when numbered  per
+  chapter, do not feature a chapter prefix.
 
-- ``book``  and  ``report``  will  use  \bibname  (which  defaults  to
-  "Bibliography") for  the heading of bibliographic  references, while
-  ``article`` will use \refname (which defaults to "References"
+- ``book``  and ``report``  will use  ``\bibname`` (which  defaults to
+  ``Bibliography``) for the heading of bibliographic references, while
+  ``article``    will   use    ``\refname``    (which   defaults    to
+  ``References``).
 
 
 Resources

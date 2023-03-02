@@ -1,5 +1,5 @@
 ============================
-Beamer presentatino skeleton
+Beamer presentation skeleton
 ============================
 
 :Authors: Guillaume Oliviéro
