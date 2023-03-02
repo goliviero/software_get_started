@@ -20,6 +20,11 @@ Goals of the tutorial
 Introduction
 ============
 
+
+Fill the ``.emacs`` file
+========================
+
+
 Install new packages
 ====================
 
