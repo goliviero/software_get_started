@@ -185,6 +185,17 @@ Extract any compressed file:
    export -f extract
 ..
 
+Clean a Latex directory and remove generated files using ``latexmk``
+
+.. code:: sh
+
+   function latex_clean()
+   {
+          latexmk -c
+   }
+   export -f latex_clean
+..
+
 Reset your paths and empty the variables you set previously:
 
 .. code:: sh
