@@ -80,6 +80,14 @@ loop bash command like this:
 ``ì`` is the incremental variable. It shoul be protecred when used and
 that's why we are using the braces ``{ }``.
 
+List and then delete files created in the last 60 minutes:
+
+.. code:: sh
+
+   $ find . -type f -cmin -60
+   $ find . -type f -cmin -60 -delete
+..
+
 
 Searching in dir/files
 ----------------------
