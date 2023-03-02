@@ -1,0 +1,85 @@
+\documentclass[8pt]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{ulem}
+\usepackage{wasysym}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+
+%% You can choose the theme for your presentation
+%% See the full list here: https://deic.uab.cat/~iblanes/beamer_gallery/index_by_theme.html
+%% or here: https://hartwork.org/beamer-theme-matrix/
+
+\usetheme{Warsaw}
+
+%% \useinnertheme{circles} % circles, rectangles, ...
+
+%% \usecolortheme[RGB={32,64,96}]{structure}
+%% \setbeamercolor{alerted text}{fg=orange}
+%% \setbeamerfont{alerted text}{series=\bf}
+%% \definecolor{green2}{rgb}{0,0.75,0}
+%% \setbeamerfont{alerted text}{series=\bf}
+
+%% \setbeamertemplate{title page}[default][rounded=false,shadow=false]
+%% \setbeamertemplate{frametitle}[default][rounded=false,shadow=false]
+%% \setbeamertemplate{headline}[default]
+%% \setbeamertemplate{footline}[page number]
+%% \setbeamertemplate{navigation symbols}{} %% remove the bottom navigation
+\setbeamertemplate{blocks}[default]
+
+%% \setbeamerfont{title}{series=\bf}
+%% \setbeamerfont{frametitle}{series=\bf}
+
+\title{Title}
+\author{Author}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+%% New Slide %%
+%%%%%%%%%%%%%%%
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+%%%%%%%%%%%%%%%
+%% New Slide %%
+%%%%%%%%%%%%%%%
+\begin{frame}{Blocks}
+
+  \begin{block}{}
+    \begin{itemize}
+    \item item 1 in a block
+    \item item 2 in a block
+    \end{itemize}
+  \end{block}
+
+  \begin{exampleblock}{}
+    \begin{enumerate}
+    \item enumerate 1 in a example block
+    \item enumerate 2 in a example block
+    \end{enumerate}
+  \end{exampleblock}
+
+  \begin{alertblock}{}
+    Text in alert clock with \alert{alert warning}
+  \end{alertblock}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%
+%% New Slide %%
+%%%%%%%%%%%%%%%
+\begin{frame}{Pictures}
+
+  \makebox[\textwidth][c]{\includegraphics[width=1.175\textwidth]{img/snemo_example_plot.png}}
+
+\end{frame}
+
+
+\end{document}
