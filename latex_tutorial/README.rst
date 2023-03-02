@@ -51,11 +51,11 @@ TBD
 Skeletons list
 ==============
 
+- `PhD thesis skeleton <thesis_skeleton>`_
 - Article skeleton (TBD)
 - Book skeleton (TBD)
-- `PhD thesis skeleton <thesis_skeleton>`_
-- `Curiculum skeleton <cv_skeleton>`_
 - `Beamer presentation skeleton <presentation_skeleton>`_
+- `Curiculum skeleton <cv_skeleton>`_
 
 
 
