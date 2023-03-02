@@ -21,8 +21,9 @@ command is available under ``man`` command. Example with ``ssh``:
 
 It is pretty explicit and it's listing **ALL** options with examples.
 
-One fun alternative is the ``tldr`` package. It stands for ``too long; didn't read``   which   is   a   common   expression   on   internet
-forums. According  to the command  ``$ tldr tldr``, it  displays simple
+One fun alternative to ``man`` is  the ``tldr`` package. It stands for
+``too long;  didn't read``  which is a  common expression  on internet
+forums. According to  the command ``$ tldr tldr``,  it displays simple
 help pages for command-line tools from the tldr-pages project. Install
 it first and then try it on a dedicated command:
 
@@ -31,21 +32,22 @@ it first and then try it on a dedicated command:
    $ sudo apt  install tldr
 
    # Example with the ssh command:
+
    $ tldr ssh
 
-  ssh
+     ssh
 
-  Secure Shell is a protocol used to securely log onto remote systems.
-  It can be used for logging or executing commands on a remote server.
-  More information: https://man.openbsd.org/ssh.
+     Secure Shell is a protocol used to securely log onto remote systems.
+     It can be used for logging or executing commands on a remote server.
+     More information: https://man.openbsd.org/ssh.
 
-  - Connect to a remote server:
-    ssh username@remote_host
+     - Connect to a remote server:
+       ssh username@remote_host
 
-  - Connect to a remote server with a specific identity (private key):
-    ssh -i path/to/key_file username@remote_host
+     - Connect to a remote server with a specific identity (private key):
+       ssh -i path/to/key_file username@remote_host
 
-    # and so on....
+       # and so on....
 ..
 
 
