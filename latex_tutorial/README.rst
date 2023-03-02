@@ -8,24 +8,31 @@ Latex tutorial
 
 .. contents::
 
+.. figure:: img/LaTeX_logo.svg
+   :width: 1000
+
 Goals of the tutorial
 =====================
 
 -
--
+
 -
 
+- Provide some useful skeletons covering most of usage
 
 
 Introduction
 ============
 
-Generate a pdf document from  a latex source file. Several application
-can do it
+Generate a pdf document from a latex source file. Several applications
+can do it:
 
 .. code:: sh
 
    $ pdflatex cv_en.tex
+
+   # or
+
    $ latexmk -pdf cv_en.tex
 ..
 
@@ -36,11 +43,25 @@ Clean up temporary TEX files created for a specific TEX file:
    $ latexmk -c
 ..
 
-Skeletons
-=========
+Start here tutorial
+===================
 
-Main differences between the ``book``, ``report``, and ``article`` document classes
------------------------------------------------------------------------------------
+TBD
+
+Skeletons list
+==============
+
+- Article skeleton (TBD)
+- Book skeleton (TBD)
+- `PhD thesis skeleton <thesis_skeleton>`_
+- `Curiculum skeleton <cv_skeleton>`_
+- `Beamer presentation skeleton <presentation_skeleton>`_
+
+
+
+
+Differences between the ``book``, ``report``, and ``article`` classes
+---------------------------------------------------------------------
 
 Differences with regard to available commands and environments:
 
@@ -48,7 +69,7 @@ Differences with regard to available commands and environments:
   while ``article`` doesn't.
 
 - In ``book``  and ``report``, ``\appendix`` will  cause ``\chapters``
-  to  be typeset  as  ``Appendix  X` instead  of  ``Chapter X``.   For
+  to  be typeset  as ``Appendix  X``  instead of  ``Chapter X``.   For
   ``article``, this isn't applicable.
 
 - ``book`` and ``report`` will start a new page for ``\parts`` , while
