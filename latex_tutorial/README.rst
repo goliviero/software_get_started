@@ -78,8 +78,8 @@ Differences with regard to default settings:
 - ``book`` uses the headings pagestyle for non-chapter-starting pages,
   while ``report`` and ``article`` always use plain.
 
-- ``book``  and  ``report`` use  titlepage  (the  title page  and  `if
-  applicable` the  abstract environment  will be  typeset on  pages of
+- ``book``  and  ``report`` use  titlepage  (the  title page  and  *if
+  applicable* the  abstract environment  will be  typeset on  pages of
   their own), while ``article`` uses notitlepage.
 
 - For  ``book`` and  ``report``, the  lowest-level sectioning  command
