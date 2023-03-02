@@ -1,8 +1,12 @@
-==========================================
-Git rédaction de thèse (version francaise)
-==========================================
+================================
+PhD skeleton (version francaise)
+================================
 
-:Authors : G.Oliviéro <goliviero@lpccaen.in2p3.fr>
+:Authors: Guillaume Oliviéro
+:Date:    2023-02-22
+:Contact: oliviero@cenbg.in2p3.fr
+
+.. contents::
 
 Structure du répertoire LaTeX
 =============================
@@ -34,8 +38,16 @@ Compilation
 * make : compile le document avec tous les chapitres
 * make clean : nettoie tous les produits de compilation / build
 
+
+
+
 =====================================
 Git for PhD writing (english version)
 =====================================
 
-:Authors : G.Oliviéro <goliviero@lpccaen.in2p3.fr>
+TBD one day... Have to translate all directories and files...
+..
+
+   :Authors: Guillaume Oliviéro
+   :Date:    2023-02-22
+   :Contact: oliviero@cenbg.in2p3.fr
