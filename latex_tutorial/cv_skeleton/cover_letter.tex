@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper,roman]{moderncv}
+\moderncvtheme[red]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm, headheight=15pt]{geometry}
+%\usepackage[scale=1]{geometry} % La taille pris par le contenu, ici on a 15% de marges.
+\usepackage{fontawesome}
+\usepackage[document]{ragged2e}
+\usepackage{totcount}
+\usepackage[none]{hyphenat}
+
+\usepackage{lipsum} % To generate fake text frames
+
+% \nopagenumbers{} % Permet de masquer les numéros de page
+% \title{Research Scientist}
+\firstname{FirstName}
+\familyname{LastName}
+\address{Address}{ZIP/CODE CITY}
+\mobile{phone number}
+\email{email address}
+
+
+\begin{document}
+%\justify
+
+\recipient{Recipient's name}{
+  Address, \\
+  City, ZIPCODE, COUNTRY}
+
+
+\date{location, the date}
+\opening{Dear XXXX,}
+
+\closing{Best regards,}
+
+% Yours faithfully % if you don't know him/her
+
+\makelettertitle
+
+\justifying
+
+\setlength{\parindent}{5ex}
+
+
+%% Generate XX paragraphs of lipsum texta
+\lipsum[1-3]
+
+
+Thank you  for your time and  consideration.  Feel free to  contact me
+for any further information. Looking forward to hearing from you. \\
+
+\makeletterclosing
+
+
+\end{document}

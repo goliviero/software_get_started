@@ -17,8 +17,23 @@ of it and `git repo <https://github.com/moderncv/moderncv>`_
 Contents
 ========
 
-Explicit document. You can move /  add sections and customize it. This
-is the purpose of such a skeleton.
+You can (and have) to move, to add and to adapt sections and customize
+it
+
+- ``cv.en.tex``  Curiculum  vitae  document.  Add  cventry  or  cvline
+  depending of the information you want to give.
+
+- ``cover_letter.tex`` Example cover letter with lipsum text in it.
+
+
+Generate PDFs
+-------------
+
+.. code:: sh
+
+   $ pdflatex cv_en.tex
+   $ pdflatex cover_letter.tex
+..
 
 ====================================
 Curriculum skeleton (french version)
