@@ -6,6 +6,11 @@ Python Matplotlib tutorial
 |Date| 30-01-2023|
 |Contact| charpent@lp2ib.in2p3.fr|
 
+Getting Help
+============
+
+Please use the github issues system to open a discussion on a specific topic.
+
 About this repository
 =====================
 
@@ -56,18 +61,16 @@ Examples
 
 You'll find in this repository several examples:
 * `./Examples/Simple/bar_colors.py`: This is an example showing how to control bar color and legend entries
+* `./Examples/Simple/simple_plot.py`: This is a bare minimal example showing how to create and draw a simple plot. 
 
 Website and documentations
 --------------------------
 
 * [Matplotlib Website](https://matplotlib.org/stable/index.html)
+* [Some useful cheat sheet](https://matplotlib.org/cheatsheets/)
 
 Additional ressources
 ---------------------
 
 * You may want to look at some [Third-party](https://matplotlib.org/mpl-third-party/) packages such as [**seaborn**](https://seaborn.pydata.org) or [**animaplot**](https://animatplot.readthedocs.io/en/stable/).
 
-Getting Help
-============
-
-Please use the github issues system to open a discussion on a specific topic.
