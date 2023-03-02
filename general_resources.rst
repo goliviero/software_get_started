@@ -6,6 +6,15 @@ General resources
 :Date:    2023-01-26
 :Contact: oliviero@cenbg.in2p3.fr
 
+
+
+Data processing courses
+=======================
+
+http://ipnwww.in2p3.fr/cours-ne-data-processing/
+https://xgarrido.github.io/
+
+
 Advanced language learning
 ==========================
 https://github.com/practical-tutorials/project-based-learning
@@ -34,6 +43,8 @@ https://rogerdudler.github.io/git-guide/
 CMake
 -----
 https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+https://github.com/pyk/cmake-tutorial
+https://github.com/ttroy50/cmake-examples
 
 CCin2p3 doc sbatch
 ==================
@@ -49,6 +60,7 @@ Doxygen
 
 C++
 ===
+(FR) https://xgarrido.github.io/master_cpp_teaching/
 (FR) https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/
 (FR) CPP14 https://zestedesavoir.com/articles/28/le-c-14-est-arrive/
 
@@ -77,13 +89,14 @@ https://gitlab.in2p3.fr/goliviero/thesis-skeleton
 Geant4
 ======
 https://www.slac.stanford.edu/xorg/geant4/SLACTutorial14/
-
+General in2p3 tutorials: http://geant4.in2p3.fr/styled-2/
 
 Python
 ======
 
 Basics
 ------
+(FR) https://xgarrido.github.io/licence_python_teaching/
 
 https://docs.python.org/3/tutorial/
 

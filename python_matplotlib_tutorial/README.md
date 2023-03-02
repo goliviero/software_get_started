@@ -1,7 +1,7 @@
 Python Matplotlib tutorial
 ==========================
 
-|Authors| Pierre Charpentier|
+|Authors| Guillaume Oliviéro<br>Pierre Charpentier|
 |:---:|:---:|
 |Date| 30-01-2023|
 |Contact| charpent@lp2ib.in2p3.fr|
