@@ -189,15 +189,15 @@ HOW TO RIGHT A GOOD COMMIT MESSAGE - few recommandations:
 
 - Good examples:
 
-  - `Enable Logging Globally`
-  - `Add Account Delete Route`
-       `Needed for account deletion workflow on frontend`
+  - ``Enable Logging Globally``
+  - ``Add Account Delete Route
+      Needed for account deletion workflow on frontend``
 
 - Bad examples:
 
-  - `debugging`
-  - `update`
-  - `I've added a delete route to the accounts controller`
+  - ``debugging``
+  - ``update``
+  - ``I've added a delete route to the accounts controller``
 
 
 Step 5: Push files remotely
