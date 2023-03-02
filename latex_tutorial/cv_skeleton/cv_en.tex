@@ -1,0 +1,98 @@
+\documentclass[11.5pt,a4paper,roman]{moderncv}
+\moderncvtheme[red]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}
+\usepackage{fontawesome}
+\usepackage{totcount}
+\usepackage[none]{hyphenat}
+
+\definecolor{mycolor}{RGB}{135,0,60}
+
+\renewcommand*{\emailsymbol}{}
+\renewcommand*{\mobilephonesymbol}{}
+
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+
+\newcommand{\NbOfJournalPub}{12}
+\newtotcounter{MyCounter}
+
+\newcommand*{\myJlistitem}{
+  \stepcounter{MyCounter}
+  [\the\numexpr+\value{MyCounter}\relax]
+}
+\fancyfoot[l]{Curriculum-Vitae}
+\fancyfoot[c]{First and Last names}
+
+\firstname{First Name}
+\familyname{Last Name}
+\address{XXX}{}{City, Country}
+\mobile{phone}
+\email{mail@domain.com}
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2015-2018}{Ph.D. in XXX}{Experiment}{}{}{Location}
+\cventry{2015}{Master's degree in XXX}{Master's Name}{}{}{Location}
+\cventry{2013}{Bachelor's degree in XXX}{Bachelor's Name}{}{}{Location}
+
+\section{Research experiences}
+\subsection{Post-doctorate}
+\cventry{2020-now}{Experiment 1}{}{}{}{Location 1}
+\cventry{2018-2020}{Experiment 2}{}{}{}{Location 2}
+
+\subsection{PhD Thesis}
+\cventry{2015-2018}{PhD Title}{}{}{}{PhD Location}
+
+\subsection{Responsabilities}
+
+\cventry{2020-2021}{Experiment}{}{Role 1}{}{}
+\cventry{2017-2019}{Experiment}{}{Role 2}{}{}
+
+\subsection{Other experiences}
+
+\cventry{2016}{Experience 1: teaching}{Subject}{}{}{Location}
+\cventry{2013}{Experience 2: internship}{Subject}{}{}{Location}
+\cventry{2012}{Experience 3: internship}{Subject}{}{}{Location}
+
+
+\section{Scientific production}
+\subsection{Published papers}
+
+\cvline{\myJlistitem}{{\bf Paper 1 title} \newline
+  Authors et al. {Paper Name}}
+
+\cvline{\myJlistitem}{{\bf Paper 2 title} \newline
+  Authors et al. {Paper Name}}
+
+\cvline{\myJlistitem}{{\bf Paper 3 title} \newline
+  Authors et al. {Paper Name}}
+
+% \pagebreak
+\subsection{PhD thesis}
+
+\cvline{\myJlistitem}{{ \bf PhD title} \newline
+  {Name Surname}, {TEL-XXXX (2018)}}
+
+\subsection{Oral communications}
+
+\cventry{2021}{talk 1}{}{\emph{Talk name}}{}{}
+\cventry{2020}{talk 2}{}{\emph{Talk name}}{}{}
+\cventry{2018}{talk 3}{}{\emph{Talk name}}{}{}
+
+
+\section{Computer Skills}
+
+\cvline{Languages}{List 1}
+\cvline{OS}{List 2}
+\cvline{Tools}{List 3}
+
+
+\section{Contact persons}
+
+\cventry{Contact 1}{Name1, Role}{\newline{} \url{name1@email1.com} \newline{} phone number 1}{}{}{Location 1}
+\cventry{Contact 2}{Name2, Role}{\newline{} \url{name2@email2.com} \newline{} phone number 2}{}{}{Location 2}
+\cventry{Contact 3}{Name3, Role}{\newline{} \url{name3@email3.com} \newline{} phone number 3}{}{}{Location 3}
+
+\end{document}
