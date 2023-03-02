@@ -14,13 +14,13 @@ Please use the github issues system to open a discussion on a specific topic.
 About this repository
 =====================
 
-You will find here various ressources to install and use Matplotlib.
+You will find here various resources to install and use Matplotlib.
 You may also find some Example from various sources that you might be interested in.
 
 Recommendation
 --------------
 
->We recommend to give a look at the **Numpy** tutorial first.
+>We recommend giving a look at the **Numpy** tutorial first.
 
 What is Matplotlib
 ==================
@@ -36,22 +36,18 @@ Reminder
 
 Installation
 ------------
-- Install using pip:
+- Install using pip: `$ pip install matplotlib`
 
-`$ pip install matplotlib`
+- Install using conda: `$ conda install matplotlib`
 
-- Install using conda:
-
-`$ conda install matplotlib`
-
-For more info refer to the official [install guide](https://matplotlib.org/stable/users/installing/index.html).
+For more information, please refer to the official [installation guides](https://matplotlib.org/stable/users/installing/index.html).
 
 Starting Guide
 ==============
 
-We recommend to check the tutorials available on [Matplotlib Website](https://matplotlib.org/stable/tutorials/index.html).
+We recommend checking the tutorials available on [Matplotlib Website](https://matplotlib.org/stable/tutorials/index.html).
 
-Additionnaly you can follow **Corey Schafer** crash course on [Youtube](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_).
+Additionally you can follow **Corey Schafer** crash course on [Youtube](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_).
 
 Ressources
 ==========
@@ -60,8 +56,9 @@ Examples
 --------
 
 You'll find in this repository several examples:
-* `./Examples/Simple/bar_colors.py`: This is an example showing how to control bar color and legend entries
+* `./Examples/Simple/bar_colors.py`: This is an example showing how to control bar color and legend entries.
 * `./Examples/Simple/simple_plot.py`: This is a bare minimal example showing how to create and draw a simple plot. 
+* `./Examples/Intermediate/errorbar_subsample.py`: This is an example showing how to create and draw a figure with several graph. This is also an example on how to plot and configure error bars.
 
 Website and documentations
 --------------------------
