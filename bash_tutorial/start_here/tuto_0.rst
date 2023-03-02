@@ -10,12 +10,13 @@ Tutorial Goals
 ==============
 
 .. note::
+   This tutorial will be data processing oriented because this is what
+   our  new students  are interested  by. It  can be  relevant or  not
+   depending on  the field  you are  working but I'll  try to  stay as
+   generic as possible.
 
-   This tutorial will be  data processing oriented because this is
-   what our  new students are  interested by. It  can be relevant  or not
-   depending on the field you are working but I'll try to stay as generic
-   as possible.)
-..
+   Test successive paragraphs
+
 
 - Create a new script. Load a given environment.
 
