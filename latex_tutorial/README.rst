@@ -8,8 +8,8 @@ Latex tutorial
 
 .. contents::
 
-.. figure:: img/LaTeX_logo.svg
-   :width: 1000
+.. figure:: img/logo_latex.png
+   :width: 800
 
 Goals of the tutorial
 =====================
