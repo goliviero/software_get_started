@@ -72,7 +72,5 @@ tutorials, books, and courses. Some popular resources include:
   R functions, packages, and syntax.
 - RStudio's online learning resources, including interactive tutorials
   and courses.
-- Online courses  and tutorials on  websites such as  DataCamp, Udemy,
-  and Coursera.
 - Books  on R  programming, such  as "R  for Data  Science" by  Hadley
   Wickham and Garrett Grolemund.

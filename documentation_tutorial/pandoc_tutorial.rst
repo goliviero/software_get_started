@@ -1,14 +1,12 @@
-==========================
-Pandoc
-==========================
+===============
+Pandoc tutorial
+===============
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-02-14
 :Contact: oliviero@cenbg.in2p3.fr
 
 .. contents::
-   :depth: 2
-..
 
 
 Goal
