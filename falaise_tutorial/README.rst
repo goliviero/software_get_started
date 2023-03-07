@@ -20,6 +20,9 @@ Goals of the tutorial
 Introduction
 ============
 
+What is Falaise?
+----------------
+
 
 Resources
 =========

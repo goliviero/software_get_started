@@ -22,8 +22,8 @@ Recommendation
 
 >We recommend giving a look at the **Numpy** tutorial first.
 
-What is Matplotlib
-==================
+What is Matplotlib?
+===================
 
 Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
 
@@ -57,7 +57,7 @@ Examples
 
 You'll find in this repository several examples:
 * `./Examples/Simple/bar_colors.py`: This is an example showing how to control bar color and legend entries.
-* `./Examples/Simple/simple_plot.py`: This is a bare minimal example showing how to create and draw a simple plot. 
+* `./Examples/Simple/simple_plot.py`: This is a bare minimal example showing how to create and draw a simple plot.
 * `./Examples/Intermediate/errorbar_subsample.py`: This is an example showing how to create and draw a figure with several graph. This is also an example on how to plot and configure error bars.
 
 Website and documentations
@@ -70,4 +70,3 @@ Additional ressources
 ---------------------
 
 * You may want to look at some [Third-party](https://matplotlib.org/mpl-third-party/) packages such as [**seaborn**](https://seaborn.pydata.org) or [**animaplot**](https://animatplot.readthedocs.io/en/stable/).
-

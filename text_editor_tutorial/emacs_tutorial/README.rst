@@ -20,6 +20,25 @@ Goals of the tutorial
 Introduction
 ============
 
+What is emacs?
+--------------
+
+Emacs  is not  just  a text  editor, but  a  complete environment  for
+editing, writing,  and programming.  It comes with  a wide  variety of
+features,  including  syntax  highlighting,  auto-completion,  and  an
+extensible architecture that allows you  to add your own functionality
+and customize your workflow to your needs.
+
+One  of  the most  powerful  features  of  Emacs  is its  support  for
+different programming languages, including  Python, C++, and Lisp. You
+can  write, test,  and debug  code directly  from within  Emacs, which
+makes it a great tool for software development.
+
+In this tutorial,  we will cover the basics of  using Emacs, including
+how to navigate  the interface, customize your settings,  and use some
+of the most  powerful features of Emacs. We will  also explore some of
+the more advanced features, such  as writing and debugging code, using
+macros and scripts, and integrating with other tools.
 
 Fill the ``.emacs`` file
 ========================
