@@ -24,6 +24,34 @@ Goals of the tutorial
 Introduction
 ============
 
+What is LaTeX?
+--------------
+
+LaTeX  is  a document  preparation  system  widely used  in  academia,
+particularly in STEM fields. As a PhD student, learning LaTeX can help
+you produce high-quality documents, including research papers, theses,
+and dissertations.  LaTeX allows you to  focus on the content  of your
+document  while  the  system  takes care  of  formatting  and  layout.
+
+Getting Started with LaTeX
+--------------------------
+
+To  get  started  with  LaTeX,  you  will  need  to  install  a  LaTeX
+distribution on  your computer.  Some popular options  include MiKTeX,
+TeX  Live,  and   MacTeX,  which  are  available   for  free  download
+online. You  will also need a  LaTeX editor, which is  a software tool
+that  allows you  to  write  and edit  LaTeX  documents. Some  popular
+options include Overleaf, Texmaker, and Emacs.
+
+Once you have installed a LaTeX distribution and editor, you can start
+learning  how to  use LaTeX  by going  through tutorials  and examples
+provided     online.     The      LaTeX     project     website     at
+https://www.latex-project.org/ provides  documentation, tutorials, and
+examples to help you get started with LaTeX.
+
+Some examples
+-------------
+
 Generate a pdf document from a latex source file. Several applications
 can do it:
 
