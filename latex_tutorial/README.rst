@@ -49,11 +49,49 @@ provided     online.     The      LaTeX     project     website     at
 https://www.latex-project.org/ provides  documentation, tutorials, and
 examples to help you get started with LaTeX.
 
-Some examples
--------------
 
-Generate a pdf document from a latex source file. Several applications
-can do it:
+Start here tutorial
+===================
+
+You must follow this nice  Overlea online tutorial where everything is
+well explained:
+
+https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+
+What is Overleaf?
+-----------------
+
+Overleaf is a  web-based collaborative LaTeX editor  that allows users
+to create, edit, and share LaTeX documents online. LaTeX is a document
+preparation system that is widely  used in the academic and scientific
+community to  create high-quality  documents such as  research papers,
+technical reports, and theses.
+
+Overleaf provides a user-friendly interface that allows multiple users
+to work  on the same  document simultaneously, with  real-time updates
+and collaboration tools such as chat  and commenting. This makes it an
+ideal  tool for  teams working  on  joint projects,  such as  research
+papers, dissertations, and conference presentations.
+
+Overleaf also  provides a wide  range of  templates and tools  to help
+users get started with LaTeX,  including document classes, styles, and
+fonts. It  also offers an integrated  file manager, so you  can easily
+manage and organize your LaTeX documents.
+
+One of  the biggest advantages of  Overleaf is that it  eliminates the
+need   for  users   to  install   and  manage   LaTeX  on   their  own
+computers. Everything is done through  the web interface, so users can
+access their documents from any device with an internet connection.
+
+
+Some compilation examples
+-------------------------
+
+You     can    work     online    directly     on    the     `Overleaf
+<https://www.overleaf.com/>`_ interface.
+
+Or,  you can  generate  a  pdf document  from  a  latex (.tex)  source
+file. Several applications can do it:
 
 .. code:: sh
 
@@ -70,11 +108,6 @@ Clean up temporary TEX files created for a specific TEX file:
 
    $ latexmk -c
 ..
-
-Start here tutorial
-===================
-
-TBD
 
 Skeletons list
 ==============
@@ -152,3 +185,5 @@ Differences with regard to default settings:
 
 Resources
 =========
+
+A gallery of LaTeX templates: https://www.overleaf.com/gallery
