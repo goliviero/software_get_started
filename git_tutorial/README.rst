@@ -271,8 +271,7 @@ First we have to create the new branch ``feature_add_classes``.
    $ git checkout -b feature_add_classes
 ..
 
-the ``-b``  option allow us to  create a branch and  switch (i.e ``git
-checkout``) directly on it.
+the ``-b``  option allow us to  create a branch and  switch (i.e ``git checkout``) directly on it.
 
 .. figure:: img/step_6_git_branch_checkout_feature.png
    :width: 1800
