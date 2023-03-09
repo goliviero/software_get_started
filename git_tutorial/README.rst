@@ -61,6 +61,20 @@ Bash commands
    $ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ..
 
+To add the ssh  key on the github interface, click  on your profile on
+the top right and then go to ``Settings`` and this page:
+
+.. figure:: img/step_0_sshkey_page.png
+   :width: 1200
+
+And click  ``New SSH key``. Then  copy/paste your public key  you just
+setup  before. Copy  what's  inside  the file  ``.ssh/id_ed25519.pub``
+here, for the title put ``personal laptop`` for example:
+
+
+.. figure:: img/step_0_add_sshkey.png
+   :width: 1200
+
 Now instead of using HTTPS to clone a repository OR each time you want
 to commit something, it will be done through SSH keys.
 
@@ -84,8 +98,8 @@ Step 1: Creating your first repository on the github interface
    :width: 1800
 
    Give a name  and a short description to your  repository.  Tick the
-   ``Add  a README  file`` box  and choose  a convenient  License. GNU
-   General Public License can be chosen
+   ``Add a README file`` box and  choose your License.  We will choose
+   GNU General Public License
 
 Step 2: Cloning your repository
 -------------------------------
@@ -161,8 +175,9 @@ See the status again of your repository:
 Step 4: Commit new staged files
 -------------------------------
 
-After  stagging your  file, we  want to  commit your  new file  to the
-branch we are working on. For now, we are on the ``main`` branch.
+After stagging your  new files at step  3, we want to  commit your new
+file to the branch we are working  on. For now, we are on the ``main``
+branch which is the only one for the moment.
 
 .. code:: sh
 
@@ -204,7 +219,14 @@ Step 5: Push files remotely
 ---------------------------
 
 Once stagged and commit, we want to push the file to the online remote
-repository:
+repository.  ``git commit``  records changes  to the  repository while
+``git push`` updates the remote  along with associated objects. So the
+first one is used in connection  with your local repository, while the
+latter one is used to interact with a remote repository.
+
+You can do several commits on different files in your local repository
+and push only  one time at the  end of the day  for example. Remotely,
+all commits will appear separated as it was in your local repository.
 
 .. code:: sh
 
@@ -343,13 +365,9 @@ should describe briefly the purpose.
 Step 7: Open a merge/pull request
 ---------------------------------
 
-Opening a merge request through the git interface.
-
-.. figure:: img/step_7_mr_page.png
-   :width: 1700
-
-   Git interface  for the repository.  Click on Pull Requests  and you
-   will open the interface where you can easily open one
+Opening a merge request through  the git interface.  Git interface for
+the  repository.   Click  on  Pull  Requests and  you  will  open  the
+interface where you can easily open one:
 
 .. figure:: img/step_7_mr_page_2.png
    :width: 1700
