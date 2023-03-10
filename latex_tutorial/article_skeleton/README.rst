@@ -20,7 +20,7 @@ usage:
 - `Introduction <sections/introduction.tex>`_
 - `Section      1      <sections/section_1.tex>`_,     `Section      2
   <sections/section_2.tex>`_, `Section 3 <sections/section_3.tex>`_
-- `Conclusion <sections/conclusion_1.tex>`_
+- `Conclusion <sections/conclusion.tex>`_
 - `Acknowledgments <sections/acknowledgments.tex>`_
 
 And  a  `bibliography <bibliography.bib>`_  file  ``bibliography.bib``
@@ -36,7 +36,7 @@ your terminal, you just have to type:
 
 .. code:: sh
 
-$ make
+   $ make
 ..
 
 To  remove and  clean your  repository  from all  non-source tex  file
