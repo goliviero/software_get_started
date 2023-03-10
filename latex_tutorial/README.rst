@@ -14,11 +14,8 @@ Latex tutorial
 Goals of the tutorial
 =====================
 
--
-
--
-
-- Provide some useful skeletons covering most of usage
+- Learn the LaTeX basics
+- Provide some useful and basic skeletons covering most of usage
 
 
 Introduction
@@ -113,10 +110,10 @@ Skeletons list
 ==============
 
 - `PhD thesis skeleton <thesis_skeleton>`_
-- Article skeleton (TBD)
+- `Article skeleton <article_skeleton>`_
 - Book skeleton (TBD)
 - `Beamer presentation skeleton <presentation_skeleton>`_
-- `Curiculum skeleton <cv_skeleton>`_
+- `Curiculum skeleton and cover letter <cv_skeleton>`_
 
 
 
@@ -187,3 +184,4 @@ Resources
 =========
 
 A gallery of LaTeX templates: https://www.overleaf.com/gallery
+An other website for LaTeX templates: https://www.latextemplates.com/cat/articles

@@ -37,7 +37,7 @@ create some  atomic program  you'll use  in your  bigger applications.
 You can try  to get more information from him  giving him more context
 on who you  are, for example a  phd in particle physics  or a software
 developper and he will go deeper in the explanations. Not 100% perfect
-but can be helpful and worth  mentioning.  but can be helpful and it's
+so you  must take  care about the  results but it  can be  helpful and
 worth mentioning it.
 
 

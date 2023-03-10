@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Master file	          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, a4paper, twocolumn, unnumberedsections]{article}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[colorlinks,citecolor=red,urlcolor=blue,bookmarks=false,hypertexnames=true]{hyperref}
+\usepackage{doi} %must come after hyperref if hyperref also loaded
+\colorlet{tableheadcolor}{gray!25}
+\colorlet{tablerowcolor}{gray!12.5}
+\usepackage{tablefootnote}
+%\usepackage{minted}
+\usepackage{siunitx}
+\usepackage{lipsum}
+\usepackage{subfig}
+\usepackage[normalem]{ulem}
+\usepackage[switch]{lineno}
+\bibliographystyle{unsrt}
+
+% PDF metadata (not mandatory)
+\hypersetup{
+ pdfauthor={The author},
+ pdfsubject={The subject},
+ pdftitle={Title},
+ pdfkeywords={keyword1, keyword1, keyword1}
+}
+
+
+\begin{document}
+\thispagestyle{empty}
+\onecolumn
+\hrule
+\begin{center}
+  {\Large
+    {\bf The title of your article} \\
+    The author list \\
+  }
+\end{center}
+\hrule
+\vskip 10pt
+\normalsize
+
+% Table of contents
+\setcounter{tocdepth}{2}
+\tableofcontents \label{toc}
+\vfill
+
+%%%%%% Abstract %%%%%%%%%%
+\begin{abstract}
+  \lipsum[1-2]
+\end{abstract}
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% List of figures/tables
+%% \listoffigures
+%% \listoftables
+%%\pagebreak
+
+\twocolumn
+
+%%%%%% Body %%%%%%%%%%
+\input{sections/introduction.tex}
+\input{sections/section_1.tex}
+\input{sections/section_2.tex}
+\input{sections/section_3.tex}
+\input{sections/conclusion.tex}
+\input{sections/acknowledgments.tex}
+
+%\section*{References}
+\bibliography{bibliography}
+
+\end{document}
