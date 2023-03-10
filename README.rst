@@ -140,15 +140,17 @@ Complete tutorials
 * cmake: 100%
 * pandoc: 100%
 * git: 100%
+* Python_matplotlib: 100%
+
 
 In development tutorials
 ------------------------
 
-* reStructured Text: 50% (missing rst cheatsheet)
-* Markdown: 50% (missing md examples)
-* Bash: 25% (missing main tutorial, some examples and 1 use-case)
-* Latex: 25% (missing article_skeleton, bases, cv_skeleton, presentation_skeleton, README
-* Python_matplotlib: 66% Pierre is working on it, see MR
+* reStructured Text: 50% (missing rst tutorial)
+* Markdown: 50% (missing md tutorial)
+* Bash: 75% (missing main tutorial / 1 use-case)
+* Latex: 75% (missing article_skeleton and book_skeleton)
+
 
 Credits and sources used to make these tutorials
 ================================================
