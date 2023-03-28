@@ -4,7 +4,7 @@ Python Jupyter Notebook tutorial
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-02-22
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 .. contents::
 

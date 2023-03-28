@@ -4,7 +4,7 @@ Article skeleton
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-03-10
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 .. contents::
 

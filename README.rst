@@ -4,7 +4,7 @@ Getting started on software for research
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-01-26
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 .. contents::
 
@@ -20,12 +20,12 @@ Particle Physics experiment so it can  be too specific for you but you
 can adapt what you see here to your field or applications.
 
 An  useful   way  to  get   documemtation  or  help  is   through  the
-`stackoverflow  website   <https://stackoverflow.com/>`_.   It   is  a
+`Stackoverflow  website   <https://stackoverflow.com/>`_.   It   is  a
 question and answer website for  programmers. It will become your best
 friend for each code or  software related questions.  People are smart
 and share a lots of their code on it.
 
-Also, `github <https://github.com/>`_  is also a good  place to get
+Also,  `Github <https://github.com/>`_  is also  a good  place to  get
 software snippets you can copy and then adapt to your application.
 
 Finally,  `ChatGPT <https://chat.openai.com/chat>`_  can be  also very
@@ -49,6 +49,7 @@ About this repository
 Licensing
 ---------
 
+This repository is licenced under GNU General Public License v3.0.
 
 Supported environments
 ----------------------
@@ -88,6 +89,13 @@ Pull Request.
 How to use this repository?
 ===========================
 
+Originally the idea of this repository was for our new students in the
+SuperNEMO collaboration  to ahve  a place  to start  learning software
+stuff.   I made  a list  of recommandations  for internship  students,
+Summer  students, PhD  students, young  researchers and  more advanced
+people. Feel  free to adapt  to your needs of  course but the  list of
+software that are in the first  section is, to me, the basics everyone
+must understand in research (especially in particle physics).
 
 Recommended languages and softwares to learn for Master or internship students
 ------------------------------------------------------------------------------
@@ -103,9 +111,8 @@ Recommended languages and softwares to learn for Master or internship students
 * `Python numpy tutorial <python_numpy_tutorial>`_
 * `ROOT tutorial <ROOT_tutorial>`_
 * `Python pyroot and uproot <python_root_tutorial>`_
-* `Falaise tutorial <falaise_tutorial>`_
-* `Supernemo shifter tutorial <supernemo_shifters_tutorial>`_
-* `Slack tutorial <slack_tutorial>`_
+* `Falaise tutorial <falaise_tutorial>`_ (SuperNEMO people only)
+* `Supernemo shifter tutorial <supernemo_shifters_tutorial>`_ (SuperNEMO people only)
 
 Recommended languages and softwares to learn for PhD students
 -------------------------------------------------------------
@@ -115,7 +122,7 @@ Recommended languages and softwares to learn for PhD students
 * `Cmake tutorial <cmake_tutorial>`_
 * `Python pandas tutorial <python_pandas_tutorial>`_
 * `Python jupyter notebooks <python_jupyter_notebooks_tutorial>`_
-* `Boost library (short introduction) <boost_tutorial>`_
+* `R tutorial <R_tutorial>`_ (if you use it)
 
 
 Recommended languages and softwares to learn for advanced people
@@ -123,6 +130,7 @@ Recommended languages and softwares to learn for advanced people
 
 * All recommendations for PhD students
 * `Geant4 tutorial <geant4_tutorial>`_
+* `Boost library (short introduction) <boost_tutorial>`_
 * `Bayeux tutorial <bayeux_tutorial>`_
 * `Containers tutorial (Docker and Singularity) <containers_tutorial>`_
 
@@ -149,8 +157,11 @@ In development tutorials
 * reStructured Text: 50% (missing rst tutorial)
 * Markdown: 50% (missing md tutorial)
 * Bash: 75% (missing main tutorial / 1 use-case)
-* Latex: 75% (missing article_skeleton and book_skeleton)
+* Latex: 75% (missing book_skeleton)
 
 
 Credits and sources used to make these tutorials
 ================================================
+
+See `General  ressources file <general_resources.rst>`_ for  a list of
+resources.

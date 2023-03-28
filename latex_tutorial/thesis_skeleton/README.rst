@@ -4,7 +4,7 @@ PhD skeleton (version francaise)
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-02-22
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 .. contents::
 
@@ -43,9 +43,9 @@ Compilation
 Git for PhD writing (english version)
 =====================================
 
-TBD one day... Have to translate all directories and files...
-..
+Have to translate all directories and files...
 
-   :Authors: Guillaume Oliviéro
-   :Date:    2023-02-22
-   :Contact: oliviero@cenbg.in2p3.fr
+But in fact, the latex book skeleton  template is very close to what a
+PhD thesis is so you can  check `this page <../book_skeleton>`_ on the
+repository  to  have a  ``book``  skeleton  example  that can  be  the
+starting point fort a PhD thesis in english.

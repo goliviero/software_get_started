@@ -4,7 +4,7 @@ Python ROOT tutorial
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-02-28
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 .. contents::
 

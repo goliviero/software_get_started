@@ -4,7 +4,7 @@ Bash simple commands, some examples and use cases
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-01-26
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 .. contents::
 

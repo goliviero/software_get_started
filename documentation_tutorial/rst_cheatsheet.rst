@@ -4,7 +4,7 @@
 
 :Authors: Guillaume Oliviéro
           David Goodger <goodger@python.org>
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 :Date:    2023-02-03
 :Info:    See <https://docutils.sourceforge.io/rst.html> for introductory docs.
 

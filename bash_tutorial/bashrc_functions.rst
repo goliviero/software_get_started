@@ -4,7 +4,7 @@ Bashrc functions examples
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-02-27
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 .. contents:: Table of Contents
 

@@ -4,7 +4,7 @@ Bash Tutorial step 0
 
 :Authors: Guillaume Oliviéro
 :Date:    2023-03-26
-:Contact: oliviero@cenbg.in2p3.fr
+:Contact: oliviero@lp2ib.in2p3.fr
 
 Tutorial Goals
 ==============
