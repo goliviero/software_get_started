@@ -1,0 +1,132 @@
+%% Copyright (C) 2023 Guillaume Oliviéro
+%%
+%% This file may be distributed and/or modified under the conditions
+%% of the LaTeX Project Public License, either version 1.3c of this
+%% license or (at your option) any later version. The latest version
+%% of this license is in:
+%%
+%%    http://www.latex-project.org/lppl.txt
+%%
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2006/05/20 or later.
+%%
+%% This is packages.tex
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%        Package list       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}		% LaTeX understand accent
+\usepackage[T1]{fontenc}
+% \usepackage[upright]{fourier} %% If you want to use fourier, put  before lmodern because fourier change lmodern fon
+\usepackage[numbers]{natbib} % Must be loaded before babel
+\usepackage[english]{babel}
+\usepackage{ae, aecompl}
+\usepackage{lmodern}     %% lmodern at the end for override everyone
+\usepackage{textcomp}
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+ {\normalfont\bfseries}{}{0pt}{\Huge}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% General layout of the document
+\usepackage{fancyhdr}  % Header and footer
+\pagestyle{fancy}	   % Indicates that the page style will be just that - fancy
+\lfoot[\thepage]{}     % left footer
+\cfoot{}               % middle footer
+\rfoot[]{\thepage}     % right footer
+\fancyhead[RO, LE] {}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\setlist[itemize]{label=\textbullet}
+\usepackage[section]{placeins}
+\usepackage{epigraph}
+\usepackage[font={small}]{caption}
+
+\captionsetup{justification=centering}
+
+\usepackage{lineno}
+
+\usepackage{emptypage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Maths
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{braket}
+\usepackage{physics}
+\usepackage{mathrsfs}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% Tableaux
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{etoolbox}
+\usepackage{adjustbox}
+\appto\TPTnoteSettings{\footnotesize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Graphiques
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\usepackage{tikz}
+\usetikzlibrary{backgrounds,automata}
+\pgfplotsset{width=7cm,compat=1.3}
+\tikzset{every picture/.style={execute at begin picture={
+\shorthandoff{:;!?};}
+}}
+\pgfplotsset{every linear axis/.append style={
+/pgf/number format/.cd,
+use comma,
+1000 sep={\,},
+}}
+\usepackage{eso-pic}
+\usepackage{import}
+\usepackage{lipsum}
+\usepackage{todonotes}
+\usepackage{enumerate}
+\usepackage{diagbox}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Text formatting
+\usepackage{xspace}
+\usepackage{array}
+\usepackage{hyphenat}
+\usepackage{listings}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% To navigate in the document
+\usepackage[pdftex,pdfborder={0 0 0},
+colorlinks=true,
+linkcolor=blue,
+citecolor=red,
+urlcolor=blue,
+pagebackref=true,
+]{hyperref}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Packages that must be loaded after hyperref
+%% Apply our needed geometry
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm, headheight=15pt]{geometry}

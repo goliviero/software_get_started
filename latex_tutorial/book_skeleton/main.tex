@@ -1,0 +1,123 @@
+%% Copyright (C) 2023 Guillaume Oliviéro
+%%
+%% This file may be distributed and/or modified under the conditions
+%% of the LaTeX Project Public License, either version 1.3c of this
+%% license or (at your option) any later version. The latest version
+%% of this license is in:
+%%
+%%    http://www.latex-project.org/lppl.txt
+%%
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2006/05/20 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainer of this work is Guillaume Oliviéro
+%% mailto : oliviero@lp2ib.in2p3.fr
+%%
+%% This is main.tex skeleton for a book document in english language.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Master file 				%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 11.5pt, twoside, openright, notitlepage]{book}
+\input{packages}     	% List of packages and their options
+
+\bibliographystyle{unsrt}
+
+% PDF metadata
+\hypersetup{
+  pdfauthor={XXX},
+  pdfsubject={My book},
+  pdftitle={XXX},
+  pdfkeywords={Physics, XXXX}
+}
+
+\newcommand{\mainpath}{.}
+\newcommand{\mainimgpath}{\mainpath/img}
+
+\newcommand{\chaponepath}{\mainpath/chapter_1}
+\newcommand{\chaponeimgpath}{\chaponepath/img}
+
+\newcommand{\chaptwopath}{\mainpath/chapter_2}
+\newcommand{\chaptwoimgpath}{\chaptwopath/img}
+
+\newcommand{\chapthreepath}{\mainpath/chapter_3}
+\newcommand{\chapthreeimgpath}{\chapthreepath/img}
+
+\newcommand{\TOCOMPLETE}{{\color{red}{[TO COMPLETE]}}}
+\newcommand{\REFNEEDED}{{\color{red}{[REF NEEDED]}}}
+\newcommand{\TODO}{{\color{red}{[TODO]}}}
+
+
+\begin{document}
+% Preamble
+\pagenumbering{roman}
+%----------------------------------------------------------------------------------------
+%	BOOK main page
+%----------------------------------------------------------------------------------------
+\begin{titlepage}
+	\centering
+	{\textsc{University XXX} \par}
+	\vspace{1cm}
+	{\Large \textsc{My PhD thesis}\par}
+	\vspace{1.5cm}
+	{\huge\bfseries My awesome title\par}
+	\vspace{2cm}
+	{\Large\itshape John Doe\par}
+	\vfill
+	supervised by\par
+	Dr.~Mark \textsc{Smith}
+	\vfill
+    % Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\setcounter{page}{2}
+
+
+% Table of contents
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}
+
+\tableofcontents
+
+% Figure list
+\listoffigures
+
+% Table list
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%        Contenu du document        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+
+%% To remove at the end.
+%% Utile pour rédaction
+%% \listoftodos
+
+\include{others/introduction}
+\include{chapter_1/chap_1}
+\include{chapter_2/chap_2}
+\include{chapter_3/chap_3}
+\include{others/conclusion}
+
+
+\begin{appendix}
+  \include{others/annexes}
+\end{appendix}
+
+\bibliography{bibliography}
+
+\cleardoublepage
+
+\pagestyle{empty}
+
+
+\newgeometry{top=1.5cm, bottom=1.5cm, left=2.2cm, right=2.2cm}
+\include{others/abstract}
+
+\end{document}
