@@ -111,10 +111,9 @@ Skeletons list
 
 - `PhD thesis skeleton <thesis_skeleton>`_
 - `Article skeleton <article_skeleton>`_
-- Book skeleton (TBD)
+- `Book skeleton <book_skeleton>`_
 - `Beamer presentation skeleton <presentation_skeleton>`_
 - `Curiculum skeleton and cover letter <cv_skeleton>`_
-
 
 
 
