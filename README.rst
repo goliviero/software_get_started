@@ -148,6 +148,7 @@ Complete tutorials
 * cmake: 100%
 * pandoc: 100%
 * git: 100%
+* Latex: 100%
 * Python_matplotlib: 100%
 
 
@@ -157,7 +158,6 @@ In development tutorials
 * reStructured Text: 50% (missing rst tutorial)
 * Markdown: 50% (missing md tutorial)
 * Bash: 75% (missing main tutorial / 1 use-case)
-* Latex: 75% (missing book_skeleton)
 
 
 Credits and sources used to make these tutorials
