@@ -59,3 +59,5 @@ Resources
 
 http://ipnwww.in2p3.fr/cours-ne-data-processing/
 http://ipnwww.in2p3.fr/cours-ne-data-processing/web/program/
+https://www.learncpp.com/
+https://en.cppreference.com/w/cpp/string/basic_string

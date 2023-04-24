@@ -23,7 +23,7 @@ message (STATUS "[info] Begin of 'CMakeLists.txt'.")
 # Enforce an out-of-source build.
 #
 if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
-  message(STATUS "getting_started requires an out-of-source build.")
+  message(STATUS "cpp_tutorial requires an out-of-source build.")
   message(STATUS "Please remove these files from ${CMAKE_BINARY_DIR} first:")
   message(STATUS "  CMakeCache.txt")
   message(STATUS "  CMakeFiles")
@@ -37,23 +37,19 @@ endif()
 # CMake/project requirements and configuration
 #
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
-project(getting_started VERSION 0.1.0)
+project(cpp_tutorial VERSION 0.1.0)
 
-# - Dependencies
-# find_package(Bayeux REQUIRED)
-# find_package(SNCabling REQUIRED)
-# find_package(SNFrontEndElectronics REQUIRED)
-# find_package(Falaise REQUIRED)
-# include_directories(${Bayeux_INCLUDE_DIRS})
-# include_directories(${SNCabling_INCLUDE_DIRS})
-# include_directories(${SNFrontEndElectronics_INCLUDE_DIRS})
-# include_directories(${Falaise_INCLUDE_DIRS})
+# Includes
 
-# Mandatory variable to use and find external libraries such as Bayeux, Falaise, SNFEE...
-# set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 
-#-----------------------------------------------------------------------
-# Build the subdirectories as required
-#
-message(STATUS "[info] Adding subdirectory 'cpp_tutorial'...")
-add_subdirectory(cpp_tutorial)
+
+# Sources
+
+
+
+
+# #-----------------------------------------------------------------------
+# # Build the subdirectories as required
+# #
+# message(STATUS "[info] Adding subdirectory 'cpp_tutorial'...")
+# add_subdirectory(cpp_tutorial)
